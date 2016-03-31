@@ -21,10 +21,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="592.0" prefWidth="739.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="view.DesignController">
+<AnchorPane minHeight="592.0" minWidth="739.0" prefHeight="592.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DesignController">
    <children>
-      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <TabPane minHeight="592.0" minWidth="739.0" prefHeight="592.0" prefWidth="739.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <tabs>
           <Tab text="Projekt">
             <content>
@@ -72,22 +71,22 @@
                                     </HBox>
                                     <HBox prefHeight="25.0" prefWidth="521.0">
                                        <children>
-                                          <ComboBox maxHeight="25.0" prefHeight="25.0" prefWidth="364.0">
+                                          <ComboBox fx:id="CBB_Project1" maxHeight="25.0" prefHeight="25.0" prefWidth="364.0">
                                              <HBox.margin>
                                                 <Insets right="10.0" />
                                              </HBox.margin>
                                           </ComboBox>
-                                          <TextField maxWidth="55.0" minWidth="55.0" prefWidth="55.0">
+                                          <TextField fx:id="TF_Beginn1" maxWidth="55.0" minWidth="55.0" prefWidth="55.0">
                                              <HBox.margin>
                                                 <Insets right="10.0" />
                                              </HBox.margin>
                                           </TextField>
-                                          <TextField maxWidth="55.0" minWidth="55.0" prefHeight="25.0" prefWidth="55.0">
+                                          <TextField fx:id="TF_Ende1" maxWidth="55.0" minWidth="55.0" prefHeight="25.0" prefWidth="55.0">
                                              <HBox.margin>
                                                 <Insets right="10.0" />
                                              </HBox.margin>
                                           </TextField>
-                                          <TextField maxWidth="55.0" minWidth="55.0" prefWidth="55.0">
+                                          <TextField fx:id="TF_Dauer1" maxWidth="55.0" minWidth="55.0" prefWidth="55.0">
                                              <HBox.margin>
                                                 <Insets right="10.0" />
                                              </HBox.margin>
@@ -98,7 +97,7 @@
                                        <children>
                                           <ScrollPane prefHeight="100.0" prefWidth="364.0">
                                              <content>
-                                                <TextArea prefHeight="98.0" prefWidth="362.0" />
+                                                <TextArea fx:id="TA_Text1" prefHeight="98.0" prefWidth="362.0" />
                                              </content>
                                              <HBox.margin>
                                                 <Insets right="10.0" />
@@ -106,12 +105,12 @@
                                           </ScrollPane>
                                           <VBox prefHeight="93.0" prefWidth="121.0">
                                              <children>
-                                                <ToggleButton maxHeight="41.0" maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Start">
+                                                <ToggleButton fx:id="TBTN_Start1" maxHeight="41.0" maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Start">
                                                    <VBox.margin>
                                                       <Insets bottom="10.0" />
                                                    </VBox.margin>
                                                 </ToggleButton>
-                                                <SplitMenuButton maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Übertragen">
+                                                <SplitMenuButton fx:id="SMBTN_Ende1" maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Übertragen">
                                                   <items>
                                                     <MenuItem mnemonicParsing="false" text="Übertragen" />
                                                     <MenuItem mnemonicParsing="false" text="Löschen" />
@@ -124,7 +123,7 @@
                                           </VBox>
                                           <VBox prefHeight="100.0" prefWidth="153.0">
                                              <children>
-                                                <RadioButton mnemonicParsing="false" text="Text stehen lassen">
+                                                <RadioButton fx:id="RBTN_tsl1" mnemonicParsing="false" text="Text stehen lassen">
                                                    <opaqueInsets>
                                                       <Insets />
                                                    </opaqueInsets>
@@ -132,7 +131,7 @@
                                                       <Insets bottom="10.0" />
                                                    </VBox.margin>
                                                 </RadioButton>
-                                                <RadioButton mnemonicParsing="false" text="ohne Text übertragen" />
+                                                <RadioButton fx:id="RBTN_ot1" mnemonicParsing="false" text="ohne Text übertragen" />
                                              </children>
                                           </VBox>
                                        </children>
@@ -177,8 +176,8 @@
                                           <Insets />
                                        </VBox.margin>
                                     </HBox>
-                                    <Hyperlink text="Daten exportieren nach CSV" />
-                                    <TextField>
+                                    <Hyperlink onAction="#getFileChoosertoExport" text="Daten exportieren nach CSV" />
+                                    <TextField fx:id="TF_ExporttoCSV">
                                        <VBox.margin>
                                           <Insets bottom="15.0" />
                                        </VBox.margin>
