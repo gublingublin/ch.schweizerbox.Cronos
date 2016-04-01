@@ -185,6 +185,34 @@
                                     <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Export" />
                                  </children>
                               </VBox>
+                              <Button layoutX="184.0" layoutY="417.0" mnemonicParsing="false" onAction="#test" prefHeight="60.0" prefWidth="115.0" text="Test" />
+                              <VBox layoutX="16.0" layoutY="214.0" prefHeight="135.0" prefWidth="707.0">
+                                 <children>
+                                    <HBox maxHeight="50.0" minHeight="4.0" prefHeight="39.0" prefWidth="707.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Import">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets right="10.0" />
+                                             </HBox.margin>
+                                          </Text>
+                                          <Separator prefHeight="26.0" prefWidth="647.0" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <Hyperlink onAction="#getFileChooserImportProjects" text="Projekte aus CSV importieren" />
+                                    <TextField fx:id="TF_ImportProjekte">
+                                       <VBox.margin>
+                                          <Insets bottom="15.0" />
+                                       </VBox.margin>
+                                    </TextField>
+                                    <Button mnemonicParsing="false" onAction="#importProcets" prefHeight="42.0" prefWidth="110.0" text="Import" />
+                                 </children>
+                              </VBox>
                            </children>
                         </Pane>
                      </children>
