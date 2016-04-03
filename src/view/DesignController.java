@@ -2,7 +2,11 @@ package view;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import model.CronosComboBox;
@@ -13,7 +17,7 @@ public class DesignController {
 
 	// ----------------------------------------------Felder---------------------------------------------------
 	 
-	@FXML ComboBox<String> CBB_Project1 = new ComboBox<>();
+	@FXML ComboBox<String> CBB_Project1;
 	@FXML TextField TF_Beginn1;
 	@FXML TextField TF_Ende1;
 	@FXML TextField TF_Dauer1;
@@ -24,9 +28,9 @@ public class DesignController {
 	@FXML SplitMenuButton SMBTN_Ende1;
 	@FXML RadioButton RBTN_tsl1;
 	@FXML RadioButton RBTN_ot1;
-
 	
 	
+		
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
 	
@@ -35,17 +39,19 @@ public class DesignController {
 	// ----------------------------------------------Funktionen-----------------------------------------------
 
 	public void test() {
-		String out = Data.getProjekte().get(4);
-		System.out.println("Projektnummer 4 ist: " + out);
+		System.out.println("test gedrückt!");
 	}
 	
 	public void initialize(){
-		CBB_Project1.setItems(CronosComboBox.aktionen);
+		CronosComboBox projekte = new CronosComboBox();
+		CBB_Project1.setItems(projekte.getProjekte());
 	}
 		
 	public void importProcets() throws IOException{
-		DataImport csvImport = new DataImport();
-		csvImport.readCSV(new File(TF_ImportProjekte.getText()));
+		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
+		CronosComboBox importdaten = new CronosComboBox();
+		importdaten.setImportProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
+		CBB_Project1.setItems(importdaten.getImportProjekte());
 	}
 	
 	public void getFileChoosertoExport(){

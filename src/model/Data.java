@@ -1,12 +1,12 @@
 package model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Data {
+public class Data implements Serializable{
+	private static final long serialVersionUID = -8668334127477444890L;
 	// ----------------------------------------------Felder---------------------------------------------------
-	private static List<String> projekte = new ArrayList<String>();
-	private static List<Integer> projektNummern = new ArrayList<Integer>();
 	
 	
 	
@@ -17,21 +17,5 @@ public class Data {
 
 	
 	//----------------------------------------------Getter- / Setter------------------------------------------
-	public static List<String> getProjekte() {
-		return projekte;
-	}
-
-	public static void addProjekte(String projekt) {
-		Data.projekte.add(projekt);
-	}
-
-	public static List<Integer> getProjektNummern() {
-		return projektNummern;
-	}
-
-	public static void addProjektNummern(int projektNummer) {
-		Data.projektNummern.add(projektNummer);
-	}
-
 	
 }
