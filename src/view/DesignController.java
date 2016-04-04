@@ -1,17 +1,22 @@
 package view;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.bind.JAXBException;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.EventType;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import model.CronosComboBox;
 import model.Data;
 import model.DataImport;
+import model.JAXB;
 
 public class DesignController {
 
@@ -29,7 +34,7 @@ public class DesignController {
 	@FXML RadioButton RBTN_tsl1;
 	@FXML RadioButton RBTN_ot1;
 	
-	
+	CronosComboBox importProjekte = new CronosComboBox();
 		
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
@@ -38,18 +43,20 @@ public class DesignController {
 	
 	// ----------------------------------------------Funktionen-----------------------------------------------
 
-	public void test() {
+	public void test() throws FileNotFoundException, IOException, JAXBException {
+		JAXB jaxb = new JAXB();
+		jaxb.erstelleXML(importProjekte);
 		System.out.println("test gedrückt!");
 	}
 	
 	public void initialize(){
 		CronosComboBox projekte = new CronosComboBox();
 		CBB_Project1.setItems(projekte.getProjekte());
+		
 	}
 		
 	public void importProcets() throws IOException{
 		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
-		CronosComboBox importProjekte = new CronosComboBox();
 		importProjekte.setImportProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
 		CBB_Project1.setItems(importProjekte.getImportProjekte());
 	}

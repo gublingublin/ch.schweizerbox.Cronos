@@ -1,17 +1,25 @@
 package model;
 
-import java.io.Serializable;
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "CronosComboBoxData", propOrder = {
+		"projekte",
+		"list",
+		"importList",
+		"importProjekte"
+})
 
-public class CronosComboBox implements Serializable{
-	private static final long serialVersionUID = 7331163339717886472L;
+@XmlRootElement(name = "CronosComboBoxData")
+public class CronosComboBox{
 
 	// ----------------------------------------------Felder---------------------------------------------------
 	private List<String> list = new ArrayList<String>();
+	@XmlElement(required = true)
 	private ObservableList<String> projekte;
 	
 	private List<String> importList = new ArrayList<String>();
@@ -49,4 +57,9 @@ public class CronosComboBox implements Serializable{
 	public void setImportProjekte(ObservableList<String> importProjekte) {
 		this.importProjekte = importProjekte;
 	}
+	
+	public void saveData(ObservableList<String> projekte){
+		this.projekte = projekte;
+	}
+	
 }
