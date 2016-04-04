@@ -1,12 +1,15 @@
 package model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 
-public class CronosComboBox{
+public class CronosComboBox implements Serializable{
+	private static final long serialVersionUID = 7331163339717886472L;
+
 	// ----------------------------------------------Felder---------------------------------------------------
 	private List<String> list = new ArrayList<String>();
 	private ObservableList<String> projekte;
@@ -34,22 +37,14 @@ public class CronosComboBox{
 		return projekte;
 	}
 
-
 	public void setProjekte(ObservableList<String> projekte) {
 		this.projekte = projekte;
 	}
 
 
-
-
-
 	public ObservableList<String> getImportProjekte() {
 		return importProjekte;
 	}
-
-
-
-
 
 	public void setImportProjekte(ObservableList<String> importProjekte) {
 		this.importProjekte = importProjekte;

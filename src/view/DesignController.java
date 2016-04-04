@@ -49,9 +49,9 @@ public class DesignController {
 		
 	public void importProcets() throws IOException{
 		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
-		CronosComboBox importdaten = new CronosComboBox();
-		importdaten.setImportProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
-		CBB_Project1.setItems(importdaten.getImportProjekte());
+		CronosComboBox importProjekte = new CronosComboBox();
+		importProjekte.setImportProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
+		CBB_Project1.setItems(importProjekte.getImportProjekte());
 	}
 	
 	public void getFileChoosertoExport(){
