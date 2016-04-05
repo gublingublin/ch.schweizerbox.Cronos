@@ -5,6 +5,7 @@ import java.io.File;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
 
 public class JAXB {
 	
@@ -31,6 +32,13 @@ public class JAXB {
 		Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 		jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 		jaxbMarshaller.marshal(cronosComboBoxData, output);
+	}
+	
+	public void leseXML() throws JAXBException{
+		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
+		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+		CronosComboBox cronosComboBox = (CronosComboBox) jaxbUnmarshaller.unmarshal(new File(".\\CronosComboboxData.xml"));
+		System.out.println(cronosComboBox.getProjekte());
 	}
 	
 	

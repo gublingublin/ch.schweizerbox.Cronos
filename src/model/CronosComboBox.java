@@ -26,11 +26,11 @@ public class CronosComboBox{
 	private ObservableList<String> importProjekte;
 	
 	// ----------------------------------------------Konstruktor----------------------------------------------
-	public CronosComboBox(){
-		list.add("abc");
-		list.add("def");
-		this.projekte = FXCollections.observableArrayList(list);
-	}
+//	public CronosComboBox(){
+//		list.add("abc");
+//		list.add("def");
+//		this.projekte = FXCollections.observableArrayList(list);
+//	}
 
 	
 	
@@ -60,6 +60,22 @@ public class CronosComboBox{
 	
 	public void saveData(ObservableList<String> projekte){
 		this.projekte = projekte;
+	}
+
+	public List<String> getList() {
+		return list;
+	}
+
+	public void setList(List<String> list) {
+		this.list = list;
+	}
+
+	public List<String> getImportList() {
+		return importList;
+	}
+
+	public void setImportList(List<String> importList) {
+		this.importList = importList;
 	}
 	
 }

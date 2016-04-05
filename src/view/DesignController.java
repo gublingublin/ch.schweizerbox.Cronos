@@ -6,7 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.JOptionPane;
+import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -34,7 +37,8 @@ public class DesignController {
 	@FXML RadioButton RBTN_tsl1;
 	@FXML RadioButton RBTN_ot1;
 	
-	CronosComboBox importProjekte = new CronosComboBox();
+	
+	CronosComboBox projekte = new CronosComboBox();
 		
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
@@ -44,21 +48,36 @@ public class DesignController {
 	// ----------------------------------------------Funktionen-----------------------------------------------
 
 	public void test() throws FileNotFoundException, IOException, JAXBException {
-		JAXB jaxb = new JAXB();
-		jaxb.erstelleXML(importProjekte);
 		System.out.println("test gedrückt!");
+		File inputFile = new File(".\\CronosComboboxData.xml");
+		if( inputFile.exists() == true)
+			JOptionPane.showMessageDialog(null, "File existiert!");
+		
+		
+		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
+		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+		CronosComboBox cronosComboBoxXML = (CronosComboBox)jaxbUnmarshaller.unmarshal(inputFile);
+		System.out.println(cronosComboBoxXML.getProjekte());		
+//		JAXB jaxb = new JAXB();
+//		jaxb.leseXML();
+		
+	}
+	
+	
+	public void test2() throws JAXBException{
+		System.out.println("Test 2 gedrückt");
+		JAXB jaxb = new JAXB();
+		jaxb.erstelleXML(projekte);
 	}
 	
 	public void initialize(){
-		CronosComboBox projekte = new CronosComboBox();
 		CBB_Project1.setItems(projekte.getProjekte());
-		
 	}
 		
 	public void importProcets() throws IOException{
 		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
-		importProjekte.setImportProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
-		CBB_Project1.setItems(importProjekte.getImportProjekte());
+		projekte.setImportProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
+		CBB_Project1.setItems(projekte.getImportProjekte());
 	}
 	
 	public void getFileChoosertoExport(){

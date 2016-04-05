@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CronosComboBoxData>
-    <projekte>abc</projekte>
-    <projekte>def</projekte>
-    <list>abc</list>
-    <list>def</list>
     <importProjekte>Hotel Glarnerhof</importProjekte>
     <importProjekte>BSB</importProjekte>
     <importProjekte>3rd Level AG - Support</importProjekte>
