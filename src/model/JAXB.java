@@ -38,7 +38,7 @@ public class JAXB {
 		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 		CronosComboBox cronosComboBox = (CronosComboBox) jaxbUnmarshaller.unmarshal(new File(".\\CronosComboboxData.xml"));
-		System.out.println(cronosComboBox.getProjekte());
+		System.out.println(cronosComboBox.getProjekte().get(3));
 	}
 	
 	

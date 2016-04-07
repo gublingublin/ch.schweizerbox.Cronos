@@ -20,10 +20,7 @@ public class CronosComboBox{
 	private List<String> list = new ArrayList<String>();
 	@XmlElement(required = true)
 	private ObservableList<String> projekte;
-	@XmlTransient
-	private List<String> importList = new ArrayList<String>();
-	@XmlTransient
-	private ObservableList<String> importProjekte;
+
 	
 	// ----------------------------------------------Konstruktor----------------------------------------------
 //	public CronosComboBox(){
@@ -50,14 +47,6 @@ public class CronosComboBox{
 	}
 
 
-	public ObservableList<String> getImportProjekte() {
-		return importProjekte;
-	}
-
-	public void setImportProjekte(ObservableList<String> importProjekte) {
-		this.importProjekte = importProjekte;
-	}
-	
 	public void saveData(ObservableList<String> projekte){
 		this.projekte = projekte;
 	}
@@ -70,12 +59,6 @@ public class CronosComboBox{
 		this.list = list;
 	}
 
-	public List<String> getImportList() {
-		return importList;
-	}
-
-	public void setImportList(List<String> importList) {
-		this.importList = importList;
-	}
+	
 	
 }
