@@ -38,7 +38,7 @@ public class DesignController {
 	@FXML RadioButton RBTN_ot1;
 	
 	
-	CronosComboBox projekte = new CronosComboBox();
+	CronosComboBox projekte2 = new CronosComboBox();
 		
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
@@ -57,7 +57,9 @@ public class DesignController {
 		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 		CronosComboBox cronosComboBoxXML = (CronosComboBox)jaxbUnmarshaller.unmarshal(inputFile);
-		System.out.println(cronosComboBoxXML.getProjekte());		
+		List<String> out = cronosComboBoxXML.getList();
+		
+		System.out.println(out.get(4));		
 //		JAXB jaxb = new JAXB();
 //		jaxb.leseXML();
 		
@@ -65,19 +67,26 @@ public class DesignController {
 	
 	
 	public void test2() throws JAXBException{
+		CronosComboBox projekte = new CronosComboBox();
 		System.out.println("Test 2 gedrückt");
 		JAXB jaxb = new JAXB();
+		
+		String out = projekte.getProjekte().get(3);
+		System.out.println(out);
+		
 		jaxb.erstelleXML(projekte);
 	}
 	
 	public void initialize(){
-		CBB_Project1.setItems(projekte.getProjekte());
+//		CBB_Project1.setItems(projekte.getProjekte());
 	}
 		
 	public void importProcets() throws IOException{
+		CronosComboBox projekte = new CronosComboBox();
 		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
 		projekte.setImportProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
 		CBB_Project1.setItems(projekte.getImportProjekte());
+		
 	}
 	
 	public void getFileChoosertoExport(){

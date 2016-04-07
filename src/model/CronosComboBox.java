@@ -9,20 +9,20 @@ import javafx.collections.ObservableList;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CronosComboBoxData", propOrder = {
 		"projekte",
-		"list",
-		"importList",
-		"importProjekte"
 })
 
 @XmlRootElement(name = "CronosComboBoxData")
 public class CronosComboBox{
 
+	
 	// ----------------------------------------------Felder---------------------------------------------------
+	@XmlTransient
 	private List<String> list = new ArrayList<String>();
 	@XmlElement(required = true)
 	private ObservableList<String> projekte;
-	
+	@XmlTransient
 	private List<String> importList = new ArrayList<String>();
+	@XmlTransient
 	private ObservableList<String> importProjekte;
 	
 	// ----------------------------------------------Konstruktor----------------------------------------------
