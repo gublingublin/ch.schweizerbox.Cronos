@@ -1,7 +1,6 @@
 package model;
 
 import java.io.File;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -34,11 +33,13 @@ public class JAXB {
 		jaxbMarshaller.marshal(cronosComboBoxData, output);
 	}
 	
-	public void leseXML() throws JAXBException{
+	
+	public CronosComboBox leseXML(File inputFile) throws JAXBException{
+		// Welche Klassen sollen mit Daten aus dem XML abgefüllt werden?
 		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-		CronosComboBox cronosComboBox = (CronosComboBox) jaxbUnmarshaller.unmarshal(new File(".\\CronosComboboxData.xml"));
-		System.out.println(cronosComboBox.getProjekte().get(3));
+		CronosComboBox cronosComboBox = (CronosComboBox)jaxbUnmarshaller.unmarshal(inputFile);
+		return cronosComboBox;
 	}
 	
 	
