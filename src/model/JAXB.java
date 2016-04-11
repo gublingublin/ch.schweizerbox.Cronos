@@ -38,7 +38,7 @@ public class JAXB {
 		// Welche Klassen sollen mit Daten aus dem XML abgefüllt werden?
 		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-		CronosComboBox cronosComboBox = (CronosComboBox)jaxbUnmarshaller.unmarshal(inputFile);
+		CronosComboBox cronosComboBox = (CronosComboBox)jaxbUnmarshaller.unmarshal(new File(".\\CronosComboboxData.xml"));
 		return cronosComboBox;
 	}
 	

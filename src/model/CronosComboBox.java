@@ -8,7 +8,7 @@ import javafx.collections.ObservableList;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CronosComboBoxData", propOrder = {
-		"projekte",
+		"projekte"
 })
 
 @XmlRootElement(name = "CronosComboBoxData")
@@ -46,10 +46,6 @@ public class CronosComboBox{
 		this.projekte = projekte;
 	}
 
-
-	public void saveData(ObservableList<String> projekte){
-		this.projekte = projekte;
-	}
 
 	public List<String> getList() {
 		return list;

@@ -29,6 +29,8 @@ public class DesignController {
 	
 	
 	CronosComboBox projekte = new CronosComboBox();
+	CronosComboBox testProjekte = new CronosComboBox();
+	File inputfile = new File(".\\CronosComboboxData.xml");
 		
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
@@ -50,8 +52,8 @@ public class DesignController {
 //		cronosComboBoxXML.getProjekte().get(3);
 		
 		JAXB jaxb = new JAXB();
-		File inputfile = new File(".\\CronosComboboxData.xml");
-		CronosComboBox testProjekte = jaxb.leseXML(inputfile);
+		
+		testProjekte = jaxb.leseXML(inputfile);
 		String out = testProjekte.getProjekte().get(3);
 		System.out.println(out);
 		
@@ -75,6 +77,7 @@ public class DesignController {
 	public void importProcets() throws IOException{
 		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
 		projekte.setProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
+		projekte.setList(DataImport.getProjekte());
 		CBB_Project1.setItems(projekte.getProjekte());
 		
 		String out = projekte.getProjekte().get(3);
