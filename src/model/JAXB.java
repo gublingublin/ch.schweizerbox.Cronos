@@ -35,9 +35,11 @@ public class JAXB {
 	}
 	
 	public void leseXML() throws JAXBException{
+		File input = new File(".\\CronosComboboxData.xml");
 		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-		CronosComboBox cronosComboBox = (CronosComboBox) jaxbUnmarshaller.unmarshal(new File(".\\CronosComboboxData.xml"));
+		CronosComboBox cronosComboBox = new CronosComboBox();
+		cronosComboBox = (CronosComboBox) jaxbUnmarshaller.unmarshal(input);
 		System.out.println(cronosComboBox.getProjekte().get(3));
 	}
 	
