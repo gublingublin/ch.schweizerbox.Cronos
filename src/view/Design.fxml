@@ -210,7 +210,7 @@
                                           <Insets bottom="15.0" />
                                        </VBox.margin>
                                     </TextField>
-                                    <Button mnemonicParsing="false" onAction="#importProcets" prefHeight="42.0" prefWidth="110.0" text="Import" />
+                                    <Button mnemonicParsing="false" onAction="#importProjects" prefHeight="42.0" prefWidth="110.0" text="Import" />
                                  </children>
                               </VBox>
                               <Button layoutX="312.0" layoutY="417.0" mnemonicParsing="false" onAction="#test2" prefHeight="60.0" prefWidth="115.0" text="Test 2" />

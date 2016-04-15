@@ -1,35 +1,23 @@
 package model;
 
-import java.io.File;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
+import javafx.beans.InvalidationListener;
+import javafx.collections.ListChangeListener;
+import javafx.collections.ObservableList;
 
-public class JAXB {
-	
+public class ObservableListData {
 	// ----------------------------------------------Felder---------------------------------------------------
-
-
+	
 	
 	
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
-	
-	
-	
 	// ----------------------------------------------Funktionen-----------------------------------------------
-	/** Erzeugt ein XML File mit der übergebenen Klasse und speichert es im Sourcepfad
-	 * @param cronosComboBoxData
-	 * @throws JAXBException
-	 */
 
-	
-	
-		
 	//----------------------------------------------Getter- / Setter------------------------------------------
-	
-	
-	
+
 }
