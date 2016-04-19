@@ -25,9 +25,9 @@
    <children>
       <TabPane minHeight="592.0" minWidth="739.0" prefHeight="592.0" prefWidth="739.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <tabs>
-          <Tab text="Projekt">
+          <Tab fx:id="TAB_Projekt" text="Projekt">
             <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <AnchorPane fx:id="AP_Projekt" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
                         <Pane layoutX="117.0" layoutY="82.0" prefHeight="563.0" prefWidth="739.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
@@ -152,7 +152,7 @@
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
               </content>
             </Tab>
-          <Tab text="Einstellungen">
+          <Tab fx:id="TAB_Einstellungen" text="Einstellungen">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
@@ -210,7 +210,7 @@
                                           <Insets bottom="15.0" />
                                        </VBox.margin>
                                     </TextField>
-                                    <Button mnemonicParsing="false" onAction="#importProcets" prefHeight="42.0" prefWidth="110.0" text="Import" />
+                                    <Button mnemonicParsing="false" onAction="#importProjects" prefHeight="42.0" prefWidth="110.0" text="Import" />
                                  </children>
                               </VBox>
                               <Button layoutX="312.0" layoutY="417.0" mnemonicParsing="false" onAction="#test2" prefHeight="60.0" prefWidth="115.0" text="Test 2" />

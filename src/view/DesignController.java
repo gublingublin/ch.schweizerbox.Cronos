@@ -3,13 +3,18 @@ package view;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+
+import javax.swing.JOptionPane;
 import javax.xml.bind.JAXBException;
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import model.CronosComboBox;
+import javafx.scene.layout.AnchorPane;
+import model.Data;
 import model.DataImport;
 import model.JAXB;
+
 
 public class DesignController {
 
@@ -26,11 +31,10 @@ public class DesignController {
 	@FXML SplitMenuButton SMBTN_Ende1;
 	@FXML RadioButton RBTN_tsl1;
 	@FXML RadioButton RBTN_ot1;
+	@FXML Tab TAB_Einstellungen;
+	@FXML Tab TAB_Projekt;
+	@FXML AnchorPane AP_Projekt;
 	
-	
-	CronosComboBox projekte = new CronosComboBox();
-	CronosComboBox testProjekte = new CronosComboBox();
-	File inputfile = new File(".\\CronosComboboxData.xml");
 		
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
@@ -41,47 +45,54 @@ public class DesignController {
 
 	public void test() throws FileNotFoundException, IOException, JAXBException {
 		System.out.println("test gedrückt!");
-//		File inputFile = new File(".\\CronosComboboxData.xml");
-//		if( inputFile.exists() == true)
-//			JOptionPane.showMessageDialog(null, "File existiert!");
-//		
-//		
-//		JAXBContext jaxbContext = JAXBContext.newInstance(CronosComboBox.class);
-//		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-//		CronosComboBox cronosComboBoxXML = (CronosComboBox)jaxbUnmarshaller.unmarshal(inputFile);
-//		cronosComboBoxXML.getProjekte().get(3);
+		Data cronosData = new Data();
+		cronosData.setPathExportToCSV(TF_ExporttoCSV.getText());
+		cronosData.setPathImportProjekte(TF_ImportProjekte.getText());
+		JAXB cronosDataToXML = new JAXB();
+		cronosDataToXML.erstelleXML(cronosData);
 		
 		JAXB jaxb = new JAXB();
-		
-		testProjekte = jaxb.leseXML(inputfile);
-		String out = testProjekte.getProjekte().get(3);
-		System.out.println(out);
-		
 	}
 	
 	
 	public void test2() throws JAXBException{
 		System.out.println("Test 2 gedrückt");
-		JAXB jaxb = new JAXB();
-		
-		String out = projekte.getProjekte().get(3);
-		System.out.println(out);
-		
-		jaxb.erstelleXML(projekte);
+	
 	}
 	
-	public void initialize(){
-//		CBB_Project1.setItems(projekte.getProjekte());
+	public void initialize() throws JAXBException{
+		// Importiert die zuletzt gespeicherten Pfade aus einem XML
+		JAXB cronosDataToXML = new JAXB();
+		File inputXML = new File(".\\CronosData.xml");
+		if(inputXML.exists() == true){
+			Data cronosData = null;
+			cronosData = cronosDataToXML.leseXML(inputXML);
+			TF_ExporttoCSV.setText(cronosData.getPathExportToCSV());
+			TF_ImportProjekte.setText(cronosData.getPathImportProjekte());
+		} else {
+			JOptionPane.showMessageDialog(null, "Es wurden unter Einstellungen noch keine Speicherpfade angegeben. Bitte geben Sie diese an!");
+		}
+		
 	}
 		
-	public void importProcets() throws IOException{
+
+	public void importProjects() throws IOException{
 		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
-		projekte.setProjekte(FXCollections.observableArrayList(DataImport.getProjekte()));
-		projekte.setList(DataImport.getProjekte());
-		CBB_Project1.setItems(projekte.getProjekte());
+		ObservableList<String> data = FXCollections.observableList(DataImport.getProjekte());
+		CBB_Project1.setItems(data);
 		
-		String out = projekte.getProjekte().get(3);
-		System.out.println(out);
+		//Speichert die verwendeten Pfade unter Einstellungen:
+		JAXB cronosDataToXML = new JAXB();
+		File outputXML = new File(".\\CronosData.xml");
+		Data cronosData = new Data();
+		cronosData.setPathExportToCSV(TF_ExporttoCSV.getText());
+		cronosData.setPathImportProjekte(TF_ImportProjekte.getText());
+		try {
+			cronosDataToXML.erstelleXML(cronosData);
+		} catch (JAXBException e) {
+			JOptionPane.showMessageDialog(null, "Aktion konnte nicht ausgeführt werden! Siehe LOG-Datei.");
+			e.printStackTrace();
+		}		
 	}
 	
 	public void getFileChoosertoExport(){

@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.JOptionPane;
+
 public class DataImport {
 	// ----------------------------------------------Felder---------------------------------------------------
 	private static List<String> projekte = new ArrayList<String>();
@@ -40,6 +42,7 @@ public class DataImport {
 					+ " und wird daher übersprungen!\n", zeile);
 		}
         }
+    	JOptionPane.showMessageDialog(null, "Es wurden "+ projekte.size() +" Projekte übetragen.");
     	br.close();
     }
 
