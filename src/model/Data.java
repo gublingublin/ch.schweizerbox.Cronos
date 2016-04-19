@@ -1,13 +1,28 @@
 package model;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
-public class Data implements Serializable{
-	private static final long serialVersionUID = -8668334127477444890L;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "CronosData", propOrder = {
+		"PathExportToCSV",
+		"PathImportProjekte"
+})
+@XmlRootElement(name = "CronosData")
+
+
+public class Data{
 	// ----------------------------------------------Felder---------------------------------------------------
+	@XmlElement (required = true)
+	protected String PathExportToCSV;
 	
+	@XmlElement (required = true)
+	protected String PathImportProjekte;
+
 	
 	
 	// ----------------------------------------------Konstruktor----------------------------------------------
@@ -17,5 +32,21 @@ public class Data implements Serializable{
 
 	
 	//----------------------------------------------Getter- / Setter------------------------------------------
-	
+	public String getPathExportToCSV() {
+		return PathExportToCSV;
+	}
+
+	public void setPathExportToCSV(String pathExportToCSV) {
+		PathExportToCSV = pathExportToCSV;
+	}
+
+	public String getPathImportProjekte() {
+		return PathImportProjekte;
+	}
+
+	public void setPathImportProjekte(String pathImportProjekte) {
+		PathImportProjekte = pathImportProjekte;
+	}
+
+
 }
