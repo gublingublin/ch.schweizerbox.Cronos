@@ -19,31 +19,36 @@ public class DataImport {
 	// ----------------------------------------------Funktionen-----------------------------------------------
     
     public static void readCSV(File importFile) throws IOException{
-    	FileReader fr = new FileReader(importFile);
-        BufferedReader br = new BufferedReader(fr);
-        String zeile = "";
-        String spalte1 = "";
-        String spalte2 = "";
+    	if(importFile.exists() == false){
+    		JOptionPane.showMessageDialog(null, "Die Datei existiert nicht!");
+    	} else {
+    		FileReader fr = new FileReader(importFile);
+            BufferedReader br = new BufferedReader(fr);
+            String zeile = "";
+            String spalte1 = "";
+            String spalte2 = "";
+        	
+        	while( (zeile = br.readLine()) != null )
+            {
+//              System.out.println(zeile);
+              int laengeSpalte1 = zeile.indexOf(";");
+              spalte1 = zeile.substring(0, laengeSpalte1);
+//              System.out.println("Spalte 1: " + spalte1);
+              try {
+            	  projektnummern.add(Integer.parseInt(spalte1));
+            	  int laengeSpalte2 = zeile.indexOf(";",laengeSpalte1+1);
+                  spalte2 = zeile.substring(laengeSpalte1+1, laengeSpalte2);
+//                  System.out.println("Spalte 2: " + spalte2);
+                  projekte.add(spalte2);
+    		} catch (Exception e) {
+    			System.out.printf("Die Zeile mit dem Inhalt \"%s\" enthält Daten die nicht verarbeitet werden können"
+    					+ " und wird daher übersprungen!\n", zeile);
+    		}
+            }
+        	JOptionPane.showMessageDialog(null, "Es wurden "+ projekte.size() +" Projekte übetragen.");
+        	br.close();
+    	}
     	
-    	while( (zeile = br.readLine()) != null )
-        {
-//          System.out.println(zeile);
-          int laengeSpalte1 = zeile.indexOf(";");
-          spalte1 = zeile.substring(0, laengeSpalte1);
-//          System.out.println("Spalte 1: " + spalte1);
-          try {
-        	  projektnummern.add(Integer.parseInt(spalte1));
-        	  int laengeSpalte2 = zeile.indexOf(";",laengeSpalte1+1);
-              spalte2 = zeile.substring(laengeSpalte1+1, laengeSpalte2);
-//              System.out.println("Spalte 2: " + spalte2);
-              projekte.add(spalte2);
-		} catch (Exception e) {
-			System.out.printf("Die Zeile mit dem Inhalt \"%s\" enthält Daten die nicht verarbeitet werden können"
-					+ " und wird daher übersprungen!\n", zeile);
-		}
-        }
-    	JOptionPane.showMessageDialog(null, "Es wurden "+ projekte.size() +" Projekte übetragen.");
-    	br.close();
     }
 
 	

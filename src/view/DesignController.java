@@ -3,6 +3,8 @@ package view;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.JOptionPane;
 import javax.xml.bind.JAXBException;
@@ -61,7 +63,7 @@ public class DesignController {
 	}
 	
 	public void initialize() throws JAXBException{
-		// Importiert die zuletzt gespeicherten Pfade aus einem XML
+		// Importiert die zuletzt gespeicherten Pfade und Projekte aus einem XML
 		JAXB cronosDataToXML = new JAXB();
 		File inputXML = new File(".\\CronosData.xml");
 		if(inputXML.exists() == true){
@@ -69,6 +71,9 @@ public class DesignController {
 			cronosData = cronosDataToXML.leseXML(inputXML);
 			TF_ExporttoCSV.setText(cronosData.getPathExportToCSV());
 			TF_ImportProjekte.setText(cronosData.getPathImportProjekte());
+			ObservableList<String> projekte = FXCollections.observableList(cronosData.getProjects());
+			CBB_Project1.setItems(projekte);
+			
 		} else {
 			JOptionPane.showMessageDialog(null, "Es wurden unter Einstellungen noch keine Speicherpfade angegeben. Bitte geben Sie diese an!");
 		}
@@ -77,22 +82,29 @@ public class DesignController {
 		
 
 	public void importProjects() throws IOException{
+		// List die Daten aus einem CSV und übergibt sie an die Combobox.
 		DataImport.readCSV(new File(TF_ImportProjekte.getText()));
 		ObservableList<String> data = FXCollections.observableList(DataImport.getProjekte());
 		CBB_Project1.setItems(data);
 		
-		//Speichert die verwendeten Pfade unter Einstellungen:
+		//Speichert die unter Einstellungen verwendeten Pfade in ein XML:
 		JAXB cronosDataToXML = new JAXB();
 		File outputXML = new File(".\\CronosData.xml");
 		Data cronosData = new Data();
 		cronosData.setPathExportToCSV(TF_ExporttoCSV.getText());
 		cronosData.setPathImportProjekte(TF_ImportProjekte.getText());
+		//Speichert ebenfalls die Projectdaten in dieses XML:
+		List<String> projects = DataImport.getProjekte();
+		cronosData.setProjects(projects);
+		
 		try {
 			cronosDataToXML.erstelleXML(cronosData);
 		} catch (JAXBException e) {
 			JOptionPane.showMessageDialog(null, "Aktion konnte nicht ausgeführt werden! Siehe LOG-Datei.");
 			e.printStackTrace();
-		}		
+		}
+		
+		
 	}
 	
 	public void getFileChoosertoExport(){

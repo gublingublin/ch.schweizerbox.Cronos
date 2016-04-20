@@ -1,30 +1,37 @@
 
 package model;
 
+import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CronosData", propOrder = {
-		"PathExportToCSV",
-		"PathImportProjekte"
+		"pathExportToCSV",
+		"pathImportProjekte",
+		"projects"
 })
 @XmlRootElement(name = "CronosData")
 
 
 public class Data{
 	// ----------------------------------------------Felder---------------------------------------------------
-	@XmlElement (required = true)
-	protected String PathExportToCSV;
 	
 	@XmlElement (required = true)
-	protected String PathImportProjekte;
+	protected String pathExportToCSV;
+	
+	@XmlElement (required = true)
+	protected String pathImportProjekte;
 
-	
+	@XmlElement (required = false)
+	@XmlElementWrapper (name = "projects")
+	protected List<String> projects;
 	
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
@@ -34,19 +41,27 @@ public class Data{
 	
 	//----------------------------------------------Getter- / Setter------------------------------------------
 	public String getPathExportToCSV() {
-		return PathExportToCSV;
+		return pathExportToCSV;
 	}
 
 	public void setPathExportToCSV(String pathExportToCSV) {
-		PathExportToCSV = pathExportToCSV;
+		this.pathExportToCSV = pathExportToCSV;
 	}
 
 	public String getPathImportProjekte() {
-		return PathImportProjekte;
+		return pathImportProjekte;
 	}
 
 	public void setPathImportProjekte(String pathImportProjekte) {
-		PathImportProjekte = pathImportProjekte;
+		this.pathImportProjekte = pathImportProjekte;
+	}
+
+	public List<String> getProjects() {
+		return projects;
+	}
+
+	public void setProjects(List<String> projects) {
+		this.projects = projects;
 	}
 
 

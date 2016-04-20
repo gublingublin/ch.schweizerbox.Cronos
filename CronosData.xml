@@ -1,5 +1,1079 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CronosData>
-    <PathExportToCSV>C:\Users\Roland.Schweizer\OneDrive\Skischule Braunwald\test.CSV</PathExportToCSV>
-    <PathImportProjekte>U:\Cronos\Projekte.csv</PathImportProjekte>
+    <pathExportToCSV></pathExportToCSV>
+    <pathImportProjekte>C:\Users\Roland\Desktop\Projekte.csv</pathImportProjekte>
+    <projects>
+        <projects>Hotel Glarnerhof</projects>
+        <projects>BSB</projects>
+        <projects>3rd Level AG - Support</projects>
+        <projects>3-W-Motosport &amp; Co. - Support</projects>
+        <projects>4PL Logistics - Support</projects>
+        <projects>8sam Treuhand GmbH - Support</projects>
+        <projects>A. Bründler AG - Support</projects>
+        <projects>AB Calman GmbH - Support</projects>
+        <projects>AB Servicetechnik - Support</projects>
+        <projects>ABACUS Finanzbuchhaltung</projects>
+        <projects>Abacus NKM</projects>
+        <projects>ABACUS RESEARCH, Testing diverses Finanz</projects>
+        <projects>ABACUS RESEARCH, Testing SEPA-Zahlungen</projects>
+        <projects>ABACUS RESEARCH, Testing UST-Form. DE/AT</projects>
+        <projects>ABACUS ULC Update V2013 bsb intern</projects>
+        <projects>AbaEngine 2011 Testing</projects>
+        <projects>ABAXA AG - Support</projects>
+        <projects>ABC Antiquariat - Support</projects>
+        <projects>ABEA 2011 Testing</projects>
+        <projects>Abt Söhne AG - Einführung ABEA / PPS / CRM</projects>
+        <projects>Abt Söhne AG - Einführung Finanzen inkl. Lohn</projects>
+        <projects>Abt Söhne AG - Support</projects>
+        <projects>Abt Söhne AG - Update V.2012</projects>
+        <projects>Abwasserverband Aarburg - Support</projects>
+        <projects>Acorma AG - Support</projects>
+        <projects>Acryplex GmbH - Support</projects>
+        <projects>Actinium GmbH - Support</projects>
+        <projects>Admatec AG - Support</projects>
+        <projects>Admia Solutions GmbH - Support</projects>
+        <projects>Aerne AVS GmbH - Support</projects>
+        <projects>AFB Anlagen AG - Support</projects>
+        <projects>AFP Fischer &amp; Partner AG - Support</projects>
+        <projects>Airolux AG - Support</projects>
+        <projects>AKSA / Support</projects>
+        <projects>ALADIN AG - Bewilligte Projektzusätze</projects>
+        <projects>ALADIN AG - ERP Einführung</projects>
+        <projects>ALADIN AG - Stammdatenübernahme</projects>
+        <projects>ALADIN AG - Support</projects>
+        <projects>ALADIN AG - Workshop</projects>
+        <projects>ALADIN ERP - Einführung</projects>
+        <projects>ALADIN Phase 2 - Prozesse &amp; Produktion</projects>
+        <projects>ALADIN Phase 3 - Test &amp; Produktivstart</projects>
+        <projects>Alexander Keller AG - Support</projects>
+        <projects>Alfred Wolf AG - Support</projects>
+        <projects>Algena Treuhand &amp; Beratungs AG / Support</projects>
+        <projects>Almobau AG - Support</projects>
+        <projects>Amberg Joe - Support</projects>
+        <projects>ams International AG - Support</projects>
+        <projects>Ancotech AG - BDE Integration</projects>
+        <projects>Ancotech AG - Datenübernahme</projects>
+        <projects>Ancotech AG - ERP-Einführung Dielsdorf</projects>
+        <projects>Ancotech AG - ERP-Einführung Köln</projects>
+        <projects>Ancotech AG - Mandant Clara Catella AG</projects>
+        <projects>Ancotech AG - Rechnungsformular AVX</projects>
+        <projects>Ancotech AG - Serverumstellung</projects>
+        <projects>Ancotech AG - Support</projects>
+        <projects>Ancotech AG - Update 2012 Classic</projects>
+        <projects>Ancotech AG - Workshop ABEA/PPS</projects>
+        <projects>Ancotech AG - Zusatzaufwand</projects>
+        <projects>Ancotech AG, Update</projects>
+        <projects>Ancotech Köln - Support</projects>
+        <projects>André Rutschi AG - Support</projects>
+        <projects>ANEWA AG - Support</projects>
+        <projects>Anova AG / Support</projects>
+        <projects>Antenen Malergeschäft - Support</projects>
+        <projects>Antoniazzi Treuhand - Support</projects>
+        <projects>Antonietty Architekten AG - Support</projects>
+        <projects>Apotheke zum Regenbogen - Support</projects>
+        <projects>Apothekerverband d.Kt. ZH - Support</projects>
+        <projects>APUNTO / Support</projects>
+        <projects>Armenate Pasquale - Support</projects>
+        <projects>Arnesa AG - Support</projects>
+        <projects>Arondo AG - Support</projects>
+        <projects>Arondo AG - Update / Einführung Project</projects>
+        <projects>Artaris AG - Support</projects>
+        <projects>Artis Treuhand GmbH - Support</projects>
+        <projects>Asco Kohlensäure AG - Support</projects>
+        <projects>ASS Glarus - Support</projects>
+        <projects>Aufbau Finanzen intern</projects>
+        <projects>Autec Automations / Support</projects>
+        <projects>AV Bürge AG - Support</projects>
+        <projects>AW Treuhand AG /Support</projects>
+        <projects>awit treuhand AG - Support</projects>
+        <projects>A-Z Treuhand - Support</projects>
+        <projects>B5 Immobilien GmbH - Support</projects>
+        <projects>BA-Anker Technik GmbH - Support</projects>
+        <projects>Bäbler HR. AG - Support</projects>
+        <projects>Badertscher  Rechtsanwälte - Support</projects>
+        <projects>Badertscher Dörig Poledna, Projektabr.</projects>
+        <projects>Baer Fensterbau / Support</projects>
+        <projects>Baer Fensterbau, Update auf V2006</projects>
+        <projects>BAK AG Support</projects>
+        <projects>Balmer Steuerberatung - Support</projects>
+        <projects>Bamert Treuhand / Support</projects>
+        <projects>Barbirotta / Support</projects>
+        <projects>Bärlocher Steinbruch AG - Support</projects>
+        <projects>Bärlocher Steinbruch AG - Update ULC</projects>
+        <projects>Bärlocher Steinbruch AG, Update 2008</projects>
+        <projects>Bärlocher Steinbruch AG, Update V2004</projects>
+        <projects>Barone Food - Kundenunterst./Support</projects>
+        <projects>Basler Brunner - Support</projects>
+        <projects>Basler Personenschiff-Gesellschaft/ Supp</projects>
+        <projects>Bauabdichtungs AG - Support</projects>
+        <projects>Bauer Manfred - Support</projects>
+        <projects>Baumaschinen AG, Update 2002</projects>
+        <projects>bb trading werbeartikel ag, Einführung</projects>
+        <projects>BBC - Support</projects>
+        <projects>Bellini Baupersonal / Support</projects>
+        <projects>Bellini Einführung Abacus 2008</projects>
+        <projects>BEO Elecom GmbH - Support</projects>
+        <projects>Bergschule Uri - Support</projects>
+        <projects>Bergsenn AG - Einführung ERP System</projects>
+        <projects>Bergsenn AG - Support</projects>
+        <projects>Bergsenn AG - Workshop</projects>
+        <projects>Berimo - Support</projects>
+        <projects>Berimo Update 2010</projects>
+        <projects>Bernet + Lehner Treuhand AG - Support</projects>
+        <projects>Betatronics Services AG - Support</projects>
+        <projects>Betschart Treuhand - Support</projects>
+        <projects>BHS AG - Support</projects>
+        <projects>Bicom AG - Support</projects>
+        <projects>Bingisser Altmetalle &amp; Partner - Support</projects>
+        <projects>Biotta AG - Lohn-Einführung</projects>
+        <projects>Biotta AG - Support</projects>
+        <projects>Birchler Partner AG - Support</projects>
+        <projects>Blechemballagenfabrik AG - Support</projects>
+        <projects>BLUEQUEST - Aufbau neue Schnittstellen</projects>
+        <projects>BLUEQUEST RESOURCES AG - Support</projects>
+        <projects>BLUEQUEST RESOURCES AG - Update V.2013</projects>
+        <projects>Blumen Rüegg - Support</projects>
+        <projects>Bobau AG - Support</projects>
+        <projects>Bode Bäckerei - Support</projects>
+        <projects>BOGA Treuhand + Verwaltungen - Support</projects>
+        <projects>Böhler Treuhand - Support</projects>
+        <projects>Bolliger HI-FI / Support</projects>
+        <projects>Borsoi AG / Support</projects>
+        <projects>BOSS Business Consulting - Support</projects>
+        <projects>Braunwald - Klausenpass T.AG - Support</projects>
+        <projects>Breiten GmbH - Support</projects>
+        <projects>Brodbeck Alban - Support</projects>
+        <projects>Brühwiler Annemarie - Support</projects>
+        <projects>Bruni Engineering AG - Support</projects>
+        <projects>BTS Buchhaltungs-u. Treuhands. - Support</projects>
+        <projects>BuBu - Einführung KORE</projects>
+        <projects>BuBu - Einführung MWST DE/AU</projects>
+        <projects>BuBu - Neue KORE / Einf. Swiss GAAP FER</projects>
+        <projects>BuBu - Rückschnittstelle Web-Shop</projects>
+        <projects>BuBu - Schnittst. Probleme</projects>
+        <projects>BuBu - Schnittst. RSK/Spider/SunetPlus</projects>
+        <projects>BuBu - Umst. DEBI-Schnittst. (ASCII/XML)</projects>
+        <projects>BuBu - Update V.2012 Classic</projects>
+        <projects>BuBu - Workshop ABEA</projects>
+        <projects>Bubu AG - Archivierung einrichten</projects>
+        <projects>Bubu AG - Aufräumen ABACUS</projects>
+        <projects>Bubu AG - Support</projects>
+        <projects>Bubu AG - Umstellung KORE / Reporting</projects>
+        <projects>Bubu AG - Update V.2015</projects>
+        <projects>Bubu AG - Zus. Möglichkeiten Online-Shop</projects>
+        <projects>Buchhandlung Bäschlin - Support</projects>
+        <projects>Buchhandlung Bäschlin - Update V2013 auf V2015 &amp; Einführung Lohn</projects>
+        <projects>Büeler Gerda - Support</projects>
+        <projects>Bührer  - Update V2012 Classic</projects>
+        <projects>Bührer Traktorenfabrik AG - Support</projects>
+        <projects>Bührer Traktorenfabrik AG, AbaShop</projects>
+        <projects>Bührer Traktorenfabrik AG, BDE</projects>
+        <projects>Bührer Traktorenfabrik AG-Update + Einf.</projects>
+        <projects>Bührer/Soma - Update 2008</projects>
+        <projects>Burckhardt Investcontrol - Support</projects>
+        <projects>Büronova AG - Support</projects>
+        <projects>Büronova AG / Integration Waser</projects>
+        <projects>Büronova AG, Update</projects>
+        <projects>BVS Buchverlag u. Service AG - Support</projects>
+        <projects>BVS Buchverlag u. Service AG - Support</projects>
+        <projects>Cafe 3 - Support</projects>
+        <projects>Caminada - CSM</projects>
+        <projects>Caminada - Dextra Rechtschutz AG</projects>
+        <projects>Caminada - Frei Recycling</projects>
+        <projects>Caminada - Support</projects>
+        <projects>Caminada - tmgz</projects>
+        <projects>Caminada - Update V2012 - Umstellung GB</projects>
+        <projects>Caminada - Update V2014</projects>
+        <projects>Caminada - Update V2015</projects>
+        <projects>Caminada / Einführung Archivierung</projects>
+        <projects>Caminada / Prestige Property Design AG</projects>
+        <projects>Caminada / SMC Swiss Management Cons. AG</projects>
+        <projects>Caminada / Update V.2010</projects>
+        <projects>Caminada Bildxzug</projects>
+        <projects>Caminada Einführung LEAB</projects>
+        <projects>Caminada H21</projects>
+        <projects>Caminada Hipag</projects>
+        <projects>Caminada JB Commodities</projects>
+        <projects>Caminada, Aga Nola AG</projects>
+        <projects>Caminada, Mogul Holding</projects>
+        <projects>Caminada, TCO Tansition</projects>
+        <projects>Candreja AG - Support</projects>
+        <projects>Candreja AG / Einführung AbaShop</projects>
+        <projects>Candreja AG / Update V2010</projects>
+        <projects>Candreja AG Update 2004</projects>
+        <projects>Candreja AG Update 2007</projects>
+        <projects>Capriccio P.Krüsi - Support</projects>
+        <projects>Central Station AG - Support</projects>
+        <projects>Christen - Einführung ABACUS</projects>
+        <projects>Christen - Support</projects>
+        <projects>Christen - Umstellung Kontenplan</projects>
+        <projects>Christen / Anpassungen AbaProject</projects>
+        <projects>Christiane Ritzi - Support</projects>
+        <projects>Chromwerk AG - Support</projects>
+        <projects>Combiplan AG - Support</projects>
+        <projects>Combitool AG - Einführung</projects>
+        <projects>Combitool AG - Einführung ABEA/PPS</projects>
+        <projects>Combitool AG - Einführung Datenübernahme</projects>
+        <projects>Combitool AG - Einführung Datenübernahme</projects>
+        <projects>Combitool AG - Einführung Finanzen</projects>
+        <projects>Combitool AG - Einführung Finanzen</projects>
+        <projects>Combitool AG - Stammdatenübernahme</projects>
+        <projects>Combitool AG - Support</projects>
+        <projects>Combitool AG - Update V2015</projects>
+        <projects>Combitool AG - Workshop</projects>
+        <projects>comparis.ch - Support</projects>
+        <projects>comparis.ch - Update V.2012</projects>
+        <projects>comparis.ch MIS</projects>
+        <projects>comparis.ch Update V2010</projects>
+        <projects>Computacenter - Neuer Provider</projects>
+        <projects>Computacenter - Support</projects>
+        <projects>Computacenter - Update 2014 ULC</projects>
+        <projects>Computacenter - Workshop Update 2014 ULC</projects>
+        <projects>Consultimo Wespe - Support</projects>
+        <projects>Control Software AG / Support</projects>
+        <projects>Convicta Treuhand - Treuhand</projects>
+        <projects>CORDIS audit AG - Support - HOTLINE</projects>
+        <projects>COWA AG - Support</projects>
+        <projects>COWA AG - Update V.2012 Classic</projects>
+        <projects>CWB - Support</projects>
+        <projects>CWB - Update V2015</projects>
+        <projects>DaimlerChryser Serv.Leasing AG / Support</projects>
+        <projects>Damax AbaRepair</projects>
+        <projects>Damax Abashop</projects>
+        <projects>Damax Consulting GmbH, Update 2007</projects>
+        <projects>Damax Erweiterung ABEA</projects>
+        <projects>Damax XML-Schnittstelle</projects>
+        <projects>Dano AG - Support</projects>
+        <projects>Defacto - Support</projects>
+        <projects>Demag Cranes und Comp. - Update V.2012</projects>
+        <projects>DEON Kaffee - Support</projects>
+        <projects>Diga Möbel - Support</projects>
+        <projects>Dillier &amp; Co. - Support</projects>
+        <projects>Dima &amp; Partner AG - Support</projects>
+        <projects>Dipevo AG - Support</projects>
+        <projects>Distec AG - Bewilligte Zusatzaufwendungen</projects>
+        <projects>Distec AG - Einführung ABACUS</projects>
+        <projects>Distec AG - Support</projects>
+        <projects>Distec AG - Workshop</projects>
+        <projects>DIVA Coiffure - Support</projects>
+        <projects>DLZ-Schweiz GmbH - Support</projects>
+        <projects>Domedi Architekturbüro - Support</projects>
+        <projects>Donatsch Söhne AG - BDE Integration</projects>
+        <projects>Donatsch Söhne AG - Einführung AbaScan</projects>
+        <projects>Donatsch Söhne AG - Support</projects>
+        <projects>Donatsch Söhne AG - Update V2013 ULC</projects>
+        <projects>Donatsch Söhne AG, Workshop</projects>
+        <projects>Dörig Käsehandel - Laibverw. / Auswertun</projects>
+        <projects>Dörig Käsehandel - Support</projects>
+        <projects>Dörig Käsehandel, Einführung ABACUS</projects>
+        <projects>Dr. Balsiger + Partner AG - Support</projects>
+        <projects>Dr. Balsiger + Partner AG - Update 2001</projects>
+        <projects>Dr. Balsiger + Partner AG - Update 2012</projects>
+        <projects>Dr. Balsiger + Partner AG - Update V2015</projects>
+        <projects>Durrer Sägerei &amp; Holzhandel GmbH -Suppot</projects>
+        <projects>Dyana Borghol - Support</projects>
+        <projects>Eaton GmbH - Support</projects>
+        <projects>Eckold AG - bewilligte Projektzusätze</projects>
+        <projects>Eckold AG - Eckold AG - Phase 4 / Einfüh</projects>
+        <projects>Eckold AG - Einführung ERP System</projects>
+        <projects>Eckold AG - Integration Isocon</projects>
+        <projects>Eckold AG - Phase 1 / Aufbau Stammdaten</projects>
+        <projects>Eckold AG - Phase 2 / Abwicklung festleg</projects>
+        <projects>Eckold AG - Phase 3 / Feintuning und Sch</projects>
+        <projects>Eckold AG - Serverumzug</projects>
+        <projects>Eckold AG - Shop Integration</projects>
+        <projects>Eckold AG - Stammdatenübernahme Opal</projects>
+        <projects>Eckold AG - Stammdatenübernahme UniSoft</projects>
+        <projects>Eckold AG - Support</projects>
+        <projects>Eckold AG - Übernahme Stammdaten</projects>
+        <projects>Eckold AG - Update V.2014</projects>
+        <projects>Eckold AG - Workshop</projects>
+        <projects>Ecor Treuhand AG / Support</projects>
+        <projects>efz - Erweiterung ADRE</projects>
+        <projects>efz - Umstellung REWE / Projekt NEU</projects>
+        <projects>Egger Birgit / Support</projects>
+        <projects>Egloff Franz - Support</projects>
+        <projects>Ehinger &amp; Armand v. Ernst AG Lohn/PIS</projects>
+        <projects>Ehinger &amp; Armand v.Ernst Einführung FICO</projects>
+        <projects>Ehrat &amp; Co. - Support</projects>
+        <projects>Ehrensperger AG - MWST-Problematik DE</projects>
+        <projects>Ehrensperger AG - Support</projects>
+        <projects>Ehrensperger AG, Update</projects>
+        <projects>Ehrensperger AG, Update (V2010)</projects>
+        <projects>Eigensatz GmbH - Support</projects>
+        <projects>Einführung Interne Abea</projects>
+        <projects>Elektro Ettlin AG - Support</projects>
+        <projects>Elliott Turbomachinery - Support</projects>
+        <projects>Elmer AG - Support</projects>
+        <projects>EMC Computer / Support</projects>
+        <projects>EMT Immobilien - Support</projects>
+        <projects>Enlastungsdienst, Einführung</projects>
+        <projects>Entlastungsdienst - Support</projects>
+        <projects>entsorgungstechnik.ch / Support</projects>
+        <projects>Entwicklung (ABEA-ULC/Skript/Schnittstel</projects>
+        <projects>Entwicklung-Umstellung AbaView-AbaReport</projects>
+        <projects>Erika Meier - Support</projects>
+        <projects>Erne AG - Support</projects>
+        <projects>ERNI Druck u. Media AG - Support</projects>
+        <projects>ERNI Liegenschaften AG - Support</projects>
+        <projects>Ernst Schweizer AG - Support</projects>
+        <projects>Ernst Schweizer AG - Update 2012</projects>
+        <projects>ettlin &amp; partner - Support</projects>
+        <projects>Ettlin Treuhand AG - Support</projects>
+        <projects>Eugen Hartmann GmbH - Support</projects>
+        <projects>Europoles Suisse GmbH - Support</projects>
+        <projects>Evang. Frauenbund Zürich efz - Support</projects>
+        <projects>Ex Libris - Support</projects>
+        <projects>Fachstelle Ostschweiz - Support</projects>
+        <projects>Fachstelle Ostschweiz - Update 2012</projects>
+        <projects>Fachstelle Ostschweiz - Update V.2014</projects>
+        <projects>Fageb Verwaltungs AG - Support</projects>
+        <projects>Fahrschule Wyss Kurt Zufikon - Support</projects>
+        <projects>Fakturierungen Diverses</projects>
+        <projects>Fanger AG - Support</projects>
+        <projects>Fanger Treuhand - Support</projects>
+        <projects>Fauster Treuhand - Support</projects>
+        <projects>Felber's Nähcenter - Support</projects>
+        <projects>Feldmann Bau AG - Support</projects>
+        <projects>Feldmann Treuhand GmbH - Support</projects>
+        <projects>Fenuta / Support</projects>
+        <projects>Feusi Gips GmbH / Support</projects>
+        <projects>FFF</projects>
+        <projects>FFF - EDI Traitafina</projects>
+        <projects>FFF - Einführung AbaAudit</projects>
+        <projects>FFF - Erweiterungen / Ausbau - ABACUS</projects>
+        <projects>FFF - Fuba Food</projects>
+        <projects>FFF - Integration Frionor (komplett)</projects>
+        <projects>FFF - Kundenunterstützung - Support</projects>
+        <projects>FFF - Lager / Chargenproblematik</projects>
+        <projects>FFF - MIS / Cockpit / Kostenrechnung</projects>
+        <projects>FFF - Optimierung Abea / PPS - Update</projects>
+        <projects>FFF - Outsourcing</projects>
+        <projects>FFF - Outsourcing (ab 1. Juli 11)</projects>
+        <projects>FFF - POC RAPID / Outsourcing RZ</projects>
+        <projects>FFF - Store Service Integration</projects>
+        <projects>FFF - Systemwiederherstellung</projects>
+        <projects>FFF - Umstellung Rüstprozess</projects>
+        <projects>FFF - Update 2012 Classic</projects>
+        <projects>FFF - Update ULC</projects>
+        <projects>FFF - Update V2010</projects>
+        <projects>FFF - Workshop</projects>
+        <projects>FFF Archivierung / AbaScan</projects>
+        <projects>FFF Integration Parallel Software</projects>
+        <projects>FFF -MDE / Lagerverwaltung</projects>
+        <projects>FFF Schnittstelle Integration Frionor</projects>
+        <projects>Fiorini AG - Support</projects>
+        <projects>First Choice - Support</projects>
+        <projects>Fisch.Meier.Einführung AbaProject</projects>
+        <projects>Fisch.Meier.Promotion AG</projects>
+        <projects>Fischer Karin / Support</projects>
+        <projects>FI-Solutions AG - Support</projects>
+        <projects>FL CONSULTING - Support</projects>
+        <projects>Florissimail E-Commerce</projects>
+        <projects>Flückiger Roland ZTM / Support</projects>
+        <projects>FLUORA - Etikettendruck Produktion</projects>
+        <projects>FLUORA Auftragsbestätigung n. Teilliefer</projects>
+        <projects>FLUORA Auslagerung Blechproduktion</projects>
+        <projects>FLUORA Auslagerung PLEXI</projects>
+        <projects>FLUORA bew.Zusatzproj. Auftragsstopp</projects>
+        <projects>FLUORA Inventurbewertung</projects>
+        <projects>FLUORA Leuchten AG - Integr. AbaProjec</projects>
+        <projects>FLUORA Leuchten AG - Serverumzug</projects>
+        <projects>FLUORA Leuchten AG - Support</projects>
+        <projects>FLUORA Leuchten AG - Technischer Support</projects>
+        <projects>FLUORA Leuchten AG - Update 2012 Classic</projects>
+        <projects>FLUORA Leuchten AG, Einführung ABACUS</projects>
+        <projects>FLUORA Leuchten AG, Finanzapplikationen</projects>
+        <projects>FLUORA Leuchten AG, Formulare</projects>
+        <projects>FLUORA Leuchten AG, Lager/Einkauf/PPS</projects>
+        <projects>FLUORA Leuchten AG, Mandant Deutschland</projects>
+        <projects>FLUORA Leuchten AG, Stammdatenübernahme</projects>
+        <projects>FLUORA Leuchten AG, Verkauf</projects>
+        <projects>FLUORA Leuchten AG, Workshop</projects>
+        <projects>FLUORA Provisionierung abger. Aufträge</projects>
+        <projects>FLUORA Retourenablauf</projects>
+        <projects>FLUORA Sammelrechnung</projects>
+        <projects>FLUORA Standardkondition bei Teilfaktura</projects>
+        <projects>FLUORA Zusatzprojekte</projects>
+        <projects>FLUORA, ABEA Allgemein / Formulare</projects>
+        <projects>FLUORA, Projektleitung/diverses</projects>
+        <projects>FLUORA, Zusatzdienstleistungen</projects>
+        <projects>Franz Iten AG - Support</projects>
+        <projects>Franz Iten AG - Update ULC V2015</projects>
+        <projects>Franz Iten AG, Einführung</projects>
+        <projects>Franz Iten AG, Update 09</projects>
+        <projects>Frauchiger Treuhand - Update V.2015</projects>
+        <projects>Frauchiger Treuhand Zofingen - Support</projects>
+        <projects>Frick Baukeramik AG / Support</projects>
+        <projects>Fricker Daniel - Support</projects>
+        <projects>Furger Treuhand AG - Support</projects>
+        <projects>Furrer AG / Support</projects>
+        <projects>Furrer-Jacot AG - Support</projects>
+        <projects>Furrer-Jacot AG - Workshop</projects>
+        <projects>Furrer-Stutz Gaby - Support</projects>
+        <projects>G Bau Design - Support</projects>
+        <projects>Ganzheitliches Lernen GmbH / Support</projects>
+        <projects>Garage Gujer AG / Support</projects>
+        <projects>Garage Voigtmann / Support</projects>
+        <projects>Garraux Bader &amp; Basler - Support</projects>
+        <projects>Gasparin Isolde - Support</projects>
+        <projects>Gassler Hans AG - Support</projects>
+        <projects>Gastrofrit AG - Support</projects>
+        <projects>Gastrofrit AG - Update ULC / V2015</projects>
+        <projects>Gastrofrit AG, Einführung ERP</projects>
+        <projects>Gastroma GmbH - Support</projects>
+        <projects>Gebr. Wolf Malergeschäft - Support</projects>
+        <projects>Gebrüder Knie - Support</projects>
+        <projects>Gebrüder Knie - Update V.2015</projects>
+        <projects>Geissbühler Treuhand - Support</projects>
+        <projects>GEMS Europe GmbH - Support</projects>
+        <projects>Genossame Wangen - Support</projects>
+        <projects>Genossame Wangen - Update V2012 auf V2015 Einführung Fakturierung</projects>
+        <projects>Gertsch Consulting / Support</projects>
+        <projects>Gewal Immobilien-Treuhand AG - Support</projects>
+        <projects>GFZ Zürich - Ablösung KiPro</projects>
+        <projects>GFZ Zürich - Support</projects>
+        <projects>GFZ Zürich / Update V.2010</projects>
+        <projects>GFZ Zürich / Update V2015</projects>
+        <projects>Giger + Böll Gerüstbau - Support</projects>
+        <projects>Giger + Böll Gerüstbau - Update V.2014</projects>
+        <projects>Glarner Kantonalbank</projects>
+        <projects>Glarner Kantonalbank - Support</projects>
+        <projects>Glarner Musikschule - Support</projects>
+        <projects>GlarnerSach - Support</projects>
+        <projects>Glaronia Informatik - Support</projects>
+        <projects>Glaronia Treuhand - Support</projects>
+        <projects>Glasmanufaktur Buttikon AG - Support</projects>
+        <projects>Goba - Einführung ERP Lösung</projects>
+        <projects>Goba - Phase 1 / Stammdaten &amp; Verkauf</projects>
+        <projects>Goba - Phase 2 / Produktion &amp; MDE</projects>
+        <projects>Goba - Phase 3 / Feintuning und Test</projects>
+        <projects>Goba - Phase 4 / Begleit. Produktivstart</projects>
+        <projects>Goba AG - Support</projects>
+        <projects>Goba AG - Workshop</projects>
+        <projects>Graber Christoph - Support</projects>
+        <projects>Graficon Maschinenbau - Einführung PPS</projects>
+        <projects>Graficon Maschinenbau - Support</projects>
+        <projects>Graficon Maschinenbau - Update 2012 ULC</projects>
+        <projects>Graficon Maschinenbau - Update ULC</projects>
+        <projects>Graficon Maschinenbau, Workshop</projects>
+        <projects>Graficon, Update</projects>
+        <projects>Grafik Ideeal GmbH - Support</projects>
+        <projects>Grélat Philippe / Edfund - Support</projects>
+        <projects>Grütter Walti Fahrschule - Support</projects>
+        <projects>Güdel Gartenbau - Support</projects>
+        <projects>Gygax Markus - Support</projects>
+        <projects>Gygax Tegofil AG - Support</projects>
+        <projects>Gysi Einführung AbaFlow</projects>
+        <projects>H.U.S. Technology AG - Support</projects>
+        <projects>Häfliger Storenbau AG - Support</projects>
+        <projects>Hager Zierbeschläge AG - Support</projects>
+        <projects>Hager Zierbeschläge AG - Update V.2015</projects>
+        <projects>Hammer Retex AG, Einführung ABACUS</projects>
+        <projects>Hartchrom STI Groupe - Support</projects>
+        <projects>Hartchrom STI Groupe - Workshop</projects>
+        <projects>Hartmann Treuhand - Support</projects>
+        <projects>Hauser Gärten AG - Support</projects>
+        <projects>Haustechnik Partner AG - Support</projects>
+        <projects>Hefti Rechtsanwälte - Support</projects>
+        <projects>Heli Bernina AG - Support</projects>
+        <projects>Heli Bernina AG - Support</projects>
+        <projects>Heli Bernina AG - Support</projects>
+        <projects>Heli-Linth AG - Support</projects>
+        <projects>Helios Optimierung Ein-Verkauf-Ablauf</projects>
+        <projects>Helios Update 2002</projects>
+        <projects>Helios Update 2004</projects>
+        <projects>Helios Ventilatoren AG - Erw.  Abea/PPS</projects>
+        <projects>Helios Ventilatoren AG - Int. LVS</projects>
+        <projects>Helios Ventilatoren AG - IPAD für AD</projects>
+        <projects>Helios Ventilatoren AG - neue Formulare</projects>
+        <projects>Helios Ventilatoren AG - neuer Server</projects>
+        <projects>Helios Ventilatoren AG - Support</projects>
+        <projects>Helios Ventilatoren AG  Update ULC</projects>
+        <projects>Helios Ventilatoren AG - Update V.2014</projects>
+        <projects>Helios Ventilatoren AG / Update 2012 Cla</projects>
+        <projects>Helios Ventilatoren AG / Update V2010</projects>
+        <projects>Helios Ventilatoren AG, Palo</projects>
+        <projects>Helios Ventilatoren AG, Shop</projects>
+        <projects>Helios Ventilatoren AG, Update 2008</projects>
+        <projects>Helios Ventilatoren AG, WEB Auswertungen</projects>
+        <projects>Helios XML Schnittstelle</projects>
+        <projects>Henauer Gugler AG - Support</projects>
+        <projects>Henauer Gugler AG - Update V.2012</projects>
+        <projects>Hinnen Peter - Support</projects>
+        <projects>Hoba Druck - Einführung Einkauf</projects>
+        <projects>Hoba Druck - Einführung PPS</projects>
+        <projects>Hoba Druck - Support</projects>
+        <projects>Hoba Druck AG - PPS</projects>
+        <projects>Hoba Druck AG - PPS ULC</projects>
+        <projects>Hoba Druck AG - Update ULC</projects>
+        <projects>Hoba Druck AG Einführung ABEA</projects>
+        <projects>Hochgebirgsklinik Davos - Support</projects>
+        <projects>Hoegger AG - Bewiligte Zusatzprojekte</projects>
+        <projects>Hoegger AG - Erweiterungen / Ausbau</projects>
+        <projects>Hoegger AG - Support</projects>
+        <projects>Hoegger AG - Update ULC</projects>
+        <projects>Hoegger AG - Workshop</projects>
+        <projects>Hoegger AG - Zusatzaufwände (Fibu/Archv)</projects>
+        <projects>Hotel Boldern - Support</projects>
+        <projects>Hubatka Peyer Architektur AG - Support</projects>
+        <projects>Huber Metallbau - Support</projects>
+        <projects>Hug Schriften - Support</projects>
+        <projects>Hug Standbau AG - Support</projects>
+        <projects>Hürlemann Treuhand AG - Support</projects>
+        <projects>Hürlemann Treuhand AG - Update V.2012</projects>
+        <projects>Hüsser - Support</projects>
+        <projects>Hüsser - Update V.2015</projects>
+        <projects>i2p Distribution Ltd. - Support</projects>
+        <projects>Il Castello - Support</projects>
+        <projects>Imfeld Consulting AG - Support</projects>
+        <projects>Imfeld Uhren + Schmuck GmbH - Support</projects>
+        <projects>Informatik</projects>
+        <projects>Informatikdienst des Kt.Glarus - Support</projects>
+        <projects>Inlingua - Support</projects>
+        <projects>Int. Infomanagement</projects>
+        <projects>INTAMIN AG - Betreuung After Sales</projects>
+        <projects>INTAMIN AG - Betreuung Finanzmodule</projects>
+        <projects>INTAMIN AG - Betreuung Transportabteilun</projects>
+        <projects>INTAMIN AG - Betreuung Zentrale Funktion</projects>
+        <projects>INTAMIN AG - Bewilligte Zusatzprojekte</projects>
+        <projects>INTAMIN AG - Erweiterungen ABACUS</projects>
+        <projects>INTAMIN AG - Support</projects>
+        <projects>INTAMIN AG - Update 2014</projects>
+        <projects>INTAMIN AG - Workshop</projects>
+        <projects>INTAMIN AG - Zusammenführung GB Mandant</projects>
+        <projects>Intax Steuer- u. Vorsorge - Support</projects>
+        <projects>Intellion - Support</projects>
+        <projects>InterBit AG - Support</projects>
+        <projects>Interlock AG - Support</projects>
+        <projects>Internezzo AG - Support</projects>
+        <projects>Isler Optik - Support</projects>
+        <projects>Isolag AG - Support</projects>
+        <projects>itarco AG - Support</projects>
+        <projects>ITZ Immobilien Treuhand - Support</projects>
+        <projects>ITZ Immobilien Treuhand / Update</projects>
+        <projects>Janser Ady GmbH - Support</projects>
+        <projects>Janser Ady GmbH - Support</projects>
+        <projects>JB Commodities AG, Workshop ABEA</projects>
+        <projects>Jean Frei - Support</projects>
+        <projects>Jeans Corner - Support</projects>
+        <projects>JOTA - Einführung PPS</projects>
+        <projects>JOTA - Support</projects>
+        <projects>JOTA - Umstellung ABACUS Server</projects>
+        <projects>JOTA - Umstellung ERP Lösung</projects>
+        <projects>JOTA - Workshop</projects>
+        <projects>JOTA - Zusatz</projects>
+        <projects>Jucker Transporte - Support</projects>
+        <projects>Jüstrich Cosmetics AG - Erweiterungen ABACUS</projects>
+        <projects>Jüstrich Cosmetics AG - Support</projects>
+        <projects>Jüstrich Cosmetics AG - Workshop</projects>
+        <projects>K&amp;C Consulting - Support</projects>
+        <projects>Kalberer Treuhand - Support</projects>
+        <projects>Karl Erb Spenglerei - Support</projects>
+        <projects>Karl Stüssi Sanitär AG - Support</projects>
+        <projects>Katadyn AG - Anbindung Shop</projects>
+        <projects>Katadyn AG - Scanning im Wareneingang</projects>
+        <projects>Katadyn Aufbau Rüstliste</projects>
+        <projects>Katadyn Aufbau Scanprozess</projects>
+        <projects>Katadyn Integration Aquafides</projects>
+        <projects>Katadyn Produkte AG</projects>
+        <projects>Katadyn Produkte AG - Deutschland</projects>
+        <projects>Katadyn Produkte AG - Scanning / Visum</projects>
+        <projects>Katadyn Produkte AG - Support</projects>
+        <projects>Katadyn Produkte AG - Update V2013 ULC</projects>
+        <projects>Katadyn Produkte AG, ABEA Outsourcing</projects>
+        <projects>Katadyn Produkte AG, Einführung ABACUS</projects>
+        <projects>Katadyn Produkte AG, Integration OCO AG</projects>
+        <projects>Katadyn Schnittstelle Preisliste</projects>
+        <projects>Katadyn, Ausbau Zollausfuhrverfahren</projects>
+        <projects>Katadyn, Erweiterung Mandant D</projects>
+        <projects>Kaufm. Berufschule Zofingen - Support</projects>
+        <projects>KD Zug - Migration kibesuisse</projects>
+        <projects>KD Zug - Migration PDM Tourismgroup</projects>
+        <projects>KD Zug - Swiss Finance + Prop. Inv. AG</projects>
+        <projects>KD Zug - Update V201?</projects>
+        <projects>KD Zug - Update V2012</projects>
+        <projects>KD Zug Treuhand AG - Supp. Swiss Finance</projects>
+        <projects>KD Zug Treuhand AG - Support</projects>
+        <projects>KD Zug, Bilanzsteuerungsreport</projects>
+        <projects>KD Zug, Trimatic Schnittstelle umbauen</projects>
+        <projects>Keller Treuhand &amp; Partner - Support</projects>
+        <projects>Kerber AG - Support</projects>
+        <projects>Kern + Sammet AG</projects>
+        <projects>KFORM - Support</projects>
+        <projects>KiBiZ - Support</projects>
+        <projects>KiBiZ - Update V.2012 Classic</projects>
+        <projects>Kies und Beton - Support</projects>
+        <projects>Kirchhofer Gipsergeschäft GmbH - Support</projects>
+        <projects>Kleintierpraxis Bolliger - Update V.2014</projects>
+        <projects>Kleintierpraxis BolligerTschuor-Support</projects>
+        <projects>Klüber B.I.P.</projects>
+        <projects>Klüber Lubrication - CRM Schnittstelle</projects>
+        <projects>Klüber Lubrication - Datenexport Preise</projects>
+        <projects>Klüber Lubrication - Datenexport SAP</projects>
+        <projects>Klüber Lubrication - Export Lagerbestand</projects>
+        <projects>Klüber Lubrication - Support</projects>
+        <projects>Klüber Lubrication CRM Einstandskosten</projects>
+        <projects>Klüber Lubrication, einrichten Server DE</projects>
+        <projects>Klüber Update auf 2004</projects>
+        <projects>Klueber Update</projects>
+        <projects>KMU Pool - Einführung</projects>
+        <projects>KMU Pool - Support</projects>
+        <projects>Knobel AG - Support</projects>
+        <projects>Kobler Treuhand - Support</projects>
+        <projects>Kohlen Keller AG - Support</projects>
+        <projects>Komtech AG - Support</projects>
+        <projects>Konsult AG - Support</projects>
+        <projects>Konvekta - Support</projects>
+        <projects>Konvekta - Update V2012 Classic</projects>
+        <projects>Konvekta AG - Integration SVM</projects>
+        <projects>Konvekta AG - Mand./Umstellung Kontoplan</projects>
+        <projects>Konvekta AG - Umstellung ABEA</projects>
+        <projects>Krone Giswil AG - Support</projects>
+        <projects>Kubli Feinmechanik AG - Support</projects>
+        <projects>Kuehne Metallbau GmbH - Support</projects>
+        <projects>Kull Verena - Support</projects>
+        <projects>Kundert Ingenieure AG - Support</projects>
+        <projects>Kundert Ingenieure AG / Update V2012</projects>
+        <projects>Küng Druck AG - Support</projects>
+        <projects>Kunststoff Schwanden AG - Vorerfassung RTM</projects>
+        <projects>Kunststoff Schwanden AG Support</projects>
+        <projects>Kurt Marti Transporte - Support</projects>
+        <projects>Kuster Thomas - Support</projects>
+        <projects>L&amp;D PPS-Planung</projects>
+        <projects>Landgasthof Grossteil - Support</projects>
+        <projects>Landmaschinen Elmer GmbH - Support</projects>
+        <projects>Laumann &amp; Co AG - Support</projects>
+        <projects>LB Treuhand - Einführung ABACUS</projects>
+        <projects>LB Treuhand - Support</projects>
+        <projects>LB Treuhand - Treuhand</projects>
+        <projects>LB Treuhand - Update V2012</projects>
+        <projects>LB Treuhand - Update V2015</projects>
+        <projects>LBBW Schweiz AG - Support</projects>
+        <projects>Leon Kremer AG - Einführung ABEA</projects>
+        <projects>Lienhard AG Treuhand - Support</projects>
+        <projects>Lienhard AG Treuhand - Update V.2012</projects>
+        <projects>Lienhard Café/Confiserie - Support</projects>
+        <projects>Linth STZ AG - Support</projects>
+        <projects>Litrag &amp; Partner AG - Support</projects>
+        <projects>Litschi Arthur - Support</projects>
+        <projects>LLB AG - Support</projects>
+        <projects>Locher Management AG - Support</projects>
+        <projects>Locher Management AG - Update V.2013</projects>
+        <projects>Luftseilbahn Matt-Weissenberge - Support</projects>
+        <projects>Lüscher Velos Motos AG - Support</projects>
+        <projects>Lustenberger + Dürst SA - CRM</projects>
+        <projects>Lustenberger + Dürst SA - Support</projects>
+        <projects>Lustenberger + Dürst SA - Upd. 2012 Clas</projects>
+        <projects>Lustenberger + Dürst SA - Update ULC</projects>
+        <projects>Lustenberger + Dürst SA Einführung</projects>
+        <projects>Lustenberger + Dürst SA -Einführung GB</projects>
+        <projects>Lustenberger + Dürst SA INKATIV</projects>
+        <projects>Lustenberger + Dürst SA, Arbeiten 2006</projects>
+        <projects>Lustenberger + Dürst, Anpassungen 2006</projects>
+        <projects>Lustenberger, Infomanagement</projects>
+        <projects>Lustenberger, Integration EDI</projects>
+        <projects>Lustenberger, Update 2009</projects>
+        <projects>M&amp;S Brugg - Support</projects>
+        <projects>Maerz Archivierung einrichten</projects>
+        <projects>Maerz Listen Project</projects>
+        <projects>Maerz Ofenbau AG - Support</projects>
+        <projects>Maerz Ofenbau AG - Update V2012</projects>
+        <projects>Maerz Update 2008</projects>
+        <projects>Maerz Update 2010</projects>
+        <projects>Maerz, Einführung ABEA/Zeiterf./Update</projects>
+        <projects>Maerz, Einführung Archivierung und Visum</projects>
+        <projects>Manser Franz - Support</projects>
+        <projects>Marketing / Verkaufsaktivitäten</projects>
+        <projects>Marketing Talent Services GmbH - Support</projects>
+        <projects>Marketing/ Verkauf Neuauftritt</projects>
+        <projects>Marketing-Kommunikation - Support</projects>
+        <projects>Marxer Treuhand - Support</projects>
+        <projects>Massage Peter Jäggin - Support</projects>
+        <projects>Matter-Metzgerei GmbH - Support</projects>
+        <projects>Mauerblümchen M. Duschletta - Support</projects>
+        <projects>Maurer Treuhand - Support</projects>
+        <projects>Max Frei AG - IST Analyse</projects>
+        <projects>Max Frei AG - Support</projects>
+        <projects>Mayer Sandra Birmensdorf - Support</projects>
+        <projects>Mclinsen GmbH - Support</projects>
+        <projects>MDP Solutions - Support</projects>
+        <projects>Meier Max Zufikon - Support</projects>
+        <projects>MENU SYSTEM AG - Einführung Lohn</projects>
+        <projects>MENU SYSTEM AG - Support</projects>
+        <projects>Messe Trans GmbH - Support</projects>
+        <projects>Messer Schweiz - Support</projects>
+        <projects>MGB Rechnungswesen / Support</projects>
+        <projects>MGB-LS - Support</projects>
+        <projects>MGB-LS / Update V 2012</projects>
+        <projects>Micamation AG - Support</projects>
+        <projects>Micamation AG - Update 2012 Classic</projects>
+        <projects>Micamation AG - Update 2012 Classic</projects>
+        <projects>Micamation AG PPS-Projekt</projects>
+        <projects>Micamation AG, Einführung ABEA</projects>
+        <projects>Micamation AG, ERP-Einführung + Update</projects>
+        <projects>Micamation AG, Erweiterung Abea/PPS 2010</projects>
+        <projects>Micamation AG, Erweiterung Abea/PPS kula</projects>
+        <projects>Micamation AG, Erweiterungen ABEA/PPS</projects>
+        <projects>Micamation AG, Update 2008</projects>
+        <projects>Micamation AG, Workshop ABEA/PPS</projects>
+        <projects>MidUral Chemicals SA - Support</projects>
+        <projects>Migros Pensionskasse - Support</projects>
+        <projects>Migros Pensionskasse Formulare</projects>
+        <projects>Migros Pensionskasse Lausanne</projects>
+        <projects>Milchhof Liechtenstein - Workshop</projects>
+        <projects>Mohr Susanne - Support</projects>
+        <projects>Mölnlycke Health Care AG - Support</projects>
+        <projects>Morison Products - Support</projects>
+        <projects>Mosaik Wohngruppe - Support</projects>
+        <projects>MS-Baumaterialien - Support</projects>
+        <projects>Müller Baggerbetrieb AG - Support</projects>
+        <projects>Müller Kartonagen AG - Support</projects>
+        <projects>Müller Reto - Support</projects>
+        <projects>Musikschule Engstringen - Support</projects>
+        <projects>MWN GmbH - Support</projects>
+        <projects>My Learning.ch - Support</projects>
+        <projects>Naef Verena - Support</projects>
+        <projects>Naim Zeqiri Tankstellen-Shop - Support</projects>
+        <projects>Neuhaus AG - Support</projects>
+        <projects>Neuhaus AG, Einführung ABEA</projects>
+        <projects>Neuhaus AG, Update V2005</projects>
+        <projects>Neuhaus AG, Workshop 2008</projects>
+        <projects>Neumarktpraxis Haliti - Support</projects>
+        <projects>Neurotune AG - Support</projects>
+        <projects>Nextern AG - Support</projects>
+        <projects>Niederberger - Workshop ABEA/PPS</projects>
+        <projects>Notnagel GmbH - Support</projects>
+        <projects>Ochs und Junior AG - Support</projects>
+        <projects>Ochsner Markus - Support</projects>
+        <projects>Oegerli/Kissling Treuhand AG - Support</projects>
+        <projects>On Line Video AG / Support</projects>
+        <projects>On Line Video AG, Update</projects>
+        <projects>Onuba Anuschka - Support</projects>
+        <projects>Oppliger Baumanagement - Support</projects>
+        <projects>Orthopädie Marco Steffen - Support</projects>
+        <projects>Palermo Transporte - Support</projects>
+        <projects>Papnova Papeterie AG - Support</projects>
+        <projects>Papnova Papeterie AG - Update V.2012</projects>
+        <projects>Parmaco AG - Erweiterungen</projects>
+        <projects>Parmaco AG - Support</projects>
+        <projects>Parmaco AG - Update ULC</projects>
+        <projects>Parmaco AG - Workshop</projects>
+        <projects>Pensionskasse Kt. Glarus - Support</projects>
+        <projects>Pensionskasse Kt. Glarus - Support</projects>
+        <projects>Permanence Hauptbahnhof - Support</projects>
+        <projects>Peyer &amp; Partner - Support</projects>
+        <projects>Physikalische Therapie - Support</projects>
+        <projects>Pilatus Flachdach AG - Integration SORBA</projects>
+        <projects>Pilatus Flachdach AG - KORE</projects>
+        <projects>Pilatus Flachdach AG - Support</projects>
+        <projects>Pilatus Flachdach AG - Update 2012</projects>
+        <projects>Pilatus Flachdach AG - Update 2012</projects>
+        <projects>Pin-Roll GmbH - Support</projects>
+        <projects>Pircher Orgelpfeifenbau AG - Support</projects>
+        <projects>Pizzeria Da Pino - Support</projects>
+        <projects>PL Treuhand AG - Support</projects>
+        <projects>PL Treuhand AG - Umstellung Hardware</projects>
+        <projects>PLASTIGUM AG - Einführung PPS</projects>
+        <projects>PLASTIGUM AG - Support</projects>
+        <projects>PLASTIGUM AG - Unterstützung Einf. ABEA</projects>
+        <projects>PLASTIGUM AG - Workshop</projects>
+        <projects>Platinum AG - Support</projects>
+        <projects>Playground - Support</projects>
+        <projects>PrePress &amp; Multimedia AG - Support</projects>
+        <projects>Presida Treuhand AG - Migr. Testmandant</projects>
+        <projects>Presida Treuhand AG - Support</projects>
+        <projects>PRG-Fehler ABACUS</projects>
+        <projects>Prionics AG - Support</projects>
+        <projects>Prionics AG - Update ULC</projects>
+        <projects>Prionics AG /Migration Thermo Fischer</projects>
+        <projects>Pro Senectute - Support</projects>
+        <projects>Produktmanagement (int. Wisssensaufbau)</projects>
+        <projects>Projektkoordination / MA Führung</projects>
+        <projects>Proman AG - Support</projects>
+        <projects>Proman AG - Update V.2012 Classic</projects>
+        <projects>Proman Deutschland</projects>
+        <projects>Proman Deutschland - Einführung</projects>
+        <projects>Proman Deutschland - Einrichten DATEV</projects>
+        <projects>Proman Deutschland - Support</projects>
+        <projects>Proman Deutschland - Update V.2013</projects>
+        <projects>Proto Chemicals AG - Support</projects>
+        <projects>Proto Chemicals AG - Support</projects>
+        <projects>PS Metallbau AG - Support</projects>
+        <projects>psbm gmbh (Pius Schuler) - Support</projects>
+        <projects>Publicis Werbeagentur AG - Support</projects>
+        <projects>Putz-Team Gisler GmbH - Support</projects>
+        <projects>PZ Logistik GmbH - Support</projects>
+        <projects>PZ Logistik GmbH- Einführung ABACUS Lohn</projects>
+        <projects>Rahn &amp; Co. - Support</projects>
+        <projects>Rahn Hans + Co. - EinführungABEA Resinag</projects>
+        <projects>Rahn Hans + Co. Einführung ABEA Rahn</projects>
+        <projects>Reformierte Medien - Support</projects>
+        <projects>RehabilitationsZentrum Lutzenberg - Support</projects>
+        <projects>Reinigungs-Service - Support</projects>
+        <projects>Resilux Schweiz AG - Support</projects>
+        <projects>resQshock (Schweiz) GmbH - Support</projects>
+        <projects>Rest. Freihof - Support</projects>
+        <projects>Rest. Tellenbräu GmbH - Support</projects>
+        <projects>Restaurant Schoppen - Support</projects>
+        <projects>Reto Ineichen - Support</projects>
+        <projects>Revendex GmbH - Support</projects>
+        <projects>Rey AG - Support</projects>
+        <projects>Rey AG - Update ULC</projects>
+        <projects>Rhodo Gartenbau AG - Support</projects>
+        <projects>Riobeer AG - Einführung ABACUS</projects>
+        <projects>Riobeer AG - Workshop</projects>
+        <projects>Riobeer AG Wohlen - Support</projects>
+        <projects>Riseria Taverne - Rollout Gebinde</projects>
+        <projects>Riseria Taverne - Support</projects>
+        <projects>Riseria Taverne - Update 2012</projects>
+        <projects>Riseria Taverne PPS/KORE/DBR</projects>
+        <projects>Riseria Taverne, Dirdeb-Schnittstelle</projects>
+        <projects>Riseria Taverne, LILA</projects>
+        <projects>Riseria Taverne, Siloverwaltung</projects>
+        <projects>Riseria Taverne, Update 2008</projects>
+        <projects>Riseria Update 2004</projects>
+        <projects>Riseria, AbaRiso Detailprojekt</projects>
+        <projects>Riseria, AbaRiso Einführung</projects>
+        <projects>Rittal AG - Einführung neuer Lohnmandant</projects>
+        <projects>Rittal AG - Support</projects>
+        <projects>Rittal AG - Update V2013</projects>
+        <projects>Robert Ruoss - Support</projects>
+        <projects>Robert Ruoss / Update V2009</projects>
+        <projects>ROHNERLUFT AG - Einführung Lohn</projects>
+        <projects>ROHNERLUFT AG - Support</projects>
+        <projects>Rossi G. - Support</projects>
+        <projects>Rüegg AG - Support</projects>
+        <projects>RundumGenuss GmbH - Support</projects>
+        <projects>RZL AG - Support</projects>
+        <projects>S Combi - Phase  / Finanzapplikationen</projects>
+        <projects>S Combi - Phase 1 / Stammdaten, Prozesse</projects>
+        <projects>S Combi - Phase 2 / Testing, BDE</projects>
+        <projects>S Combi - Phase 3 / Produktivstart</projects>
+        <projects>S Combi AG - Einführung ERP Lösung</projects>
+        <projects>S Combi AG - Support</projects>
+        <projects>S Combi AG - Workshop</projects>
+        <projects>Sauter Wärmetechnik - Support</projects>
+        <projects>Save the Children - Support</projects>
+        <projects>Save the Children - Update V.2013</projects>
+        <projects>SBS Naturstein Bilten - Support</projects>
+        <projects>SBS Naturstein Bilten - Update V.2013</projects>
+        <projects>SBS Naturstein Bilten, Update</projects>
+        <projects>Schafflützel Motorgeräte GmbH - Support</projects>
+        <projects>Schätti AG - Support</projects>
+        <projects>Schatzmann Thomas - Support</projects>
+        <projects>Schimmob AG - Support</projects>
+        <projects>Schircks Laboratories - Support</projects>
+        <projects>Schlegel AG - Ausbau ABEA / PPS</projects>
+        <projects>Schlegel AG - Support</projects>
+        <projects>Schlegel AG - Update ULC - V2014</projects>
+        <projects>Schlegel AG - Update ULC - V2015</projects>
+        <projects>Schlegel AG, Update</projects>
+        <projects>Schlegel AG, Workshop</projects>
+        <projects>Schlotterbeck + Co. - Support</projects>
+        <projects>Schmid AG - AbaPilot</projects>
+        <projects>Schmid AG - Einführung PPS</projects>
+        <projects>Schmid AG - Integration ABEA - PPS</projects>
+        <projects>Schmid AG - KORE/Projekt/Anl.Bh.</projects>
+        <projects>Schmid AG - Nicht budgtiert</projects>
+        <projects>Schmid AG - Outsourcing ABEA</projects>
+        <projects>Schmid AG - Projektleitung</projects>
+        <projects>Schmid AG - Support</projects>
+        <projects>Schmid AG - SVM 1. Etappe</projects>
+        <projects>Schmid AG - Update Version auf 2003</projects>
+        <projects>Schmid AG - Zus.aufw. Update  2004</projects>
+        <projects>Schmid AG AbaProject</projects>
+        <projects>Schmid AG Eschlikon - Ipad Rapportierung</projects>
+        <projects>Schmid AG Eschlikon - Support</projects>
+        <projects>Schmid AG Eschlikon - SVM 2. Etappe</projects>
+        <projects>Schmid AG Eschlikon - Umst. Materialdisp</projects>
+        <projects>Schmid AG Eschlikon - Upd. 2012 Classic</projects>
+        <projects>Schmid AG Eschlikon - Update 2009</projects>
+        <projects>Schmid AG Eschlikon - Update ULC</projects>
+        <projects>Schmid AG Eschlikon / Integration SVM</projects>
+        <projects>Schmid AG Eschlikon / Update 2009</projects>
+        <projects>Schmid AG Eschlikon / Update 2011</projects>
+        <projects>Schmid AG Eschlikon Skript f. Mandant DE</projects>
+        <projects>Schmid AG Eschlikon Update V2013 (Töchte</projects>
+        <projects>Schmid AG Eschlikon, Update 2006</projects>
+        <projects>Schmid AG Eschlikon-Optimierung EK-Dispo</projects>
+        <projects>Schmid AG, KORE</projects>
+        <projects>Schmidlin AG - Support</projects>
+        <projects>Schreiner Schlittler - Support</projects>
+        <projects>Schubiger &amp; Co.- Support</projects>
+        <projects>Schuler Reisen AG - Support</projects>
+        <projects>Schul-u. Ferienhaus St. Doro. - Support</projects>
+        <projects>Seedamm-Immobilien AG - Support</projects>
+        <projects>Seerestaurant Rorsch., Einführung ABACUS</projects>
+        <projects>Seerestaurant Rorschach - Support</projects>
+        <projects>Sekretariat Familie Richner - Support</projects>
+        <projects>Seminarhotel Lihn - Support</projects>
+        <projects>Sensirion AG - Kostenrechnung</projects>
+        <projects>Sensirion AG - Reporting Auftragseingang</projects>
+        <projects>Sensirion AG - Support</projects>
+        <projects>Sensirion AG - Umsetzung PPS</projects>
+        <projects>Sensirion AG - Workshop</projects>
+        <projects>Seraphim - Support</projects>
+        <projects>sf treuhand gmbh - Support</projects>
+        <projects>SFA Handels GmbH - Support</projects>
+        <projects>SG Private Banking SA  / Support</projects>
+        <projects>shs Hotelservice AG - Support</projects>
+        <projects>Sieber Transport AG - CRM</projects>
+        <projects>Sieber Transport AG - Einführung Fakturi</projects>
+        <projects>Sieber Transport AG - Einführung Finanze</projects>
+        <projects>Sieber Transport AG - Einführung Lohn</projects>
+        <projects>Sieber Transport AG - Einführung SVM</projects>
+        <projects>Sieber Transport AG - GB0-Problematik</projects>
+        <projects>Sieber Transport AG - Immobilien</projects>
+        <projects>Sieber Transport AG - Mandant AT / MWST</projects>
+        <projects>Sieber Transport AG - Schnittstellen / F</projects>
+        <projects>Sieber Transport AG - Support</projects>
+        <projects>Sieber Transport AG - Umsatzauswertungen</projects>
+        <projects>Sieber Transport AG - Update V.2015</projects>
+        <projects>Siegen Peter - Support</projects>
+        <projects>Siesta Hotel- und Restaurantb. - Support</projects>
+        <projects>sigura treuhand GmbH - Support</projects>
+        <projects>Silony Medical - Lohneinführung</projects>
+        <projects>Silony Medical - Support</projects>
+        <projects>Sky Group AG - Support</projects>
+        <projects>SM Service Marketing - Support</projects>
+        <projects>SOMA  AG - Support</projects>
+        <projects>SOMA - Upate und Einführung</projects>
+        <projects>SOMA AG</projects>
+        <projects>SOMA AG bis Januar 2007</projects>
+        <projects>Somma Ferdinand - Support</projects>
+        <projects>Sota Repro AG - Support</projects>
+        <projects>Spälti Druck AG - Support</projects>
+        <projects>Sperisen &amp; Partner AG - Support</projects>
+        <projects>Sportbahnen Braunwald - Support</projects>
+        <projects>Sportbahnen Elm AG - Support</projects>
+        <projects>Staub Josef - Support</projects>
+        <projects>Staubli, Kurath &amp; Partner AG - Support</projects>
+        <projects>Steffen Treuhand AG - Support</projects>
+        <projects>Steffen Treuhand AG - Update V.2013</projects>
+        <projects>Steffen Treuhand AG - Update V.2014</projects>
+        <projects>Steffen Treuhand AG - Update V.2015</projects>
+        <projects>Steffen Treuhand AG - Update V2012</projects>
+        <projects>Steffen Treuhand AG / Eurofins Scientifi</projects>
+        <projects>Steinit AG - Support</projects>
+        <projects>Stephan Keller AG - Support</projects>
+        <projects>Stierli AG - Support</projects>
+        <projects>Stiftung éducation21 - Support</projects>
+        <projects>Stiftung éducation21 - Update V.2014</projects>
+        <projects>Stiftung Neujahrsbote - Support</projects>
+        <projects>Stöckli Metall AG - Support</projects>
+        <projects>Stoll Treuhand - Support</projects>
+        <projects>Studer Handels - Support</projects>
+        <projects>Stutz Carmen - Support</projects>
+        <projects>Sulzer Vorsorgeeinrichtung - Support</projects>
+        <projects>Sulzer Vorsorgeeinrichtung - Workshop</projects>
+        <projects>Support.bsb</projects>
+        <projects>Suptec AG - Support</projects>
+        <projects>Surholt Urs - Support</projects>
+        <projects>Swiss Construction Bauvisier - Support</projects>
+        <projects>Swissbroke AG - Support</projects>
+        <projects>Swisscontent Corp. - Support</projects>
+        <projects>SwissFarmerPower Inwil - Support</projects>
+        <projects>SwissTrust Consulting Group AG - Support</projects>
+        <projects>Terex Material Handling AG - Support</projects>
+        <projects>Terex Material Handling AG -Update V2015</projects>
+        <projects>Thammavongsa  - kein Support geben !!!</projects>
+        <projects>Thin Film Physics AG - Support</projects>
+        <projects>Thode Treuhand - Support</projects>
+        <projects>Thomson Broadcast &amp; M. -  Support</projects>
+        <projects>Tiefbohrbär - GmbH Deutschland</projects>
+        <projects>Tiefbohrbär - Support</projects>
+        <projects>Tiefbohrbär - Update / Integration PPS</projects>
+        <projects>Tiefbohrbär - Update V2012 Classic</projects>
+        <projects>Tiefbohrbär Archivierung</projects>
+        <projects>Tilia AG - Support</projects>
+        <projects>Tilia AG - Update V.2014</projects>
+        <projects>Tondo AG - Support</projects>
+        <projects>Tondo AG - Support</projects>
+        <projects>Toni Gasser AG - Support</projects>
+        <projects>Toni Niederberger Treuhand - Support</projects>
+        <projects>Toscano AG - Support</projects>
+        <projects>Toscano AG, Einführung Abacus V2006</projects>
+        <projects>Towers Watson AG - Support LOHN</projects>
+        <projects>Towers Watson AG - Update V.2015</projects>
+        <projects>TQMI</projects>
+        <projects>Trattoria Burger AG - Support</projects>
+        <projects>Tremaco Treuunternehmen reg. - Support</projects>
+        <projects>Treucoba AG - Support</projects>
+        <projects>Treuhand AG Pfäffikon - Support</projects>
+        <projects>Treuhand Bamert - Support</projects>
+        <projects>Treuhand Hug AG - Support</projects>
+        <projects>Trialogic - Support</projects>
+        <projects>Trianon AG</projects>
+        <projects>Trigema AG - Support</projects>
+        <projects>Tschopp Finance AG - Support</projects>
+        <projects>Tschudi Peter - Support</projects>
+        <projects>TULUX AG - Support</projects>
+        <projects>tursar GmbH - Support</projects>
+        <projects>UMB AG - Support</projects>
+        <projects>Umberg Treuhand AG - Support</projects>
+        <projects>Unirevisa Treuhand - Treuhand</projects>
+        <projects>Unterhaltungsgenossenschaft - Support</projects>
+        <projects>Unterstützung MA - Aus-/ Weiterbildungen</projects>
+        <projects>Update ULC - Katadyn - Zusatzaufwände</projects>
+        <projects>Update ULC - Katadyn (Aquafides)</projects>
+        <projects>Update ULC - Katadyn CH / Aquafides</projects>
+        <projects>Update ULC - Katadyn Deutschland</projects>
+        <projects>Update ULC - Katadyn Projektübergreifend</projects>
+        <projects>Urs Trattmann - Support</projects>
+        <projects>Valessentia AG - Support</projects>
+        <projects>VBZ-Versicherungs Beratung - Support</projects>
+        <projects>VfU-Unternehmensberatung AG - Support</projects>
+        <projects>Villiger Ihr Brotmacher - Support</projects>
+        <projects>Visio Solutions - Support</projects>
+        <projects>Vito Ton und Bildträger AG - Support</projects>
+        <projects>Vogelbacher Treuhand - Support</projects>
+        <projects>von Franz Institut - Support</projects>
+        <projects>VR Management - Support</projects>
+        <projects>W. von Rotz - Support</projects>
+        <projects>Wache AG - Support</projects>
+        <projects>Wache AG - Umstellung neuer Mandant</projects>
+        <projects>Wache AG Neuaufsetzen Server</projects>
+        <projects>Wache AG Update 2001</projects>
+        <projects>Wache AG Update 2003</projects>
+        <projects>Wache AG Update 2005</projects>
+        <projects>Wache AG Update V2001</projects>
+        <projects>Wache AG, Update 2012</projects>
+        <projects>Wagner Stefan / Support</projects>
+        <projects>Waldvogel - Support</projects>
+        <projects>Walser + Co - Bewilligte Zusatzprojekte</projects>
+        <projects>Walser + Co.AG - ERP Einführung</projects>
+        <projects>Walser + Co.AG - Stammdatenübernahme</projects>
+        <projects>Walser + Co.AG - Support</projects>
+        <projects>Walser + Co.AG - Workshop</projects>
+        <projects>Walter Ettlin AG - Support</projects>
+        <projects>Walter Vogelbacher - Support</projects>
+        <projects>Watson Wyatt AG - Support</projects>
+        <projects>Weiler Davide (Goldenwave) - Support</projects>
+        <projects>Winterthur Versicherung - Support</projects>
+        <projects>Wirtech AG - Support</projects>
+        <projects>Wirtech AG, Einführung PPS</projects>
+        <projects>WSP W. Schefer - Support</projects>
+        <projects>Wyrsch Treuhand AG - Support</projects>
+        <projects>Zanolari Weine / Support</projects>
+        <projects>Zimmerli Textil AG -  Integr. GAWA Basel</projects>
+        <projects>Zimmerli Textil AG -  Integr. Webshop</projects>
+        <projects>Zimmerli Textil AG -  LSE-Schnittstelle</projects>
+        <projects>Zimmerli Textil AG - Support</projects>
+        <projects>Zimmerli Textil AG - Support GAWA AG</projects>
+        <projects>Zimmerli Textil AG / Update V.2012</projects>
+        <projects>Züger Treuhand - Support</projects>
+        <projects>Züger Treuhand - Update V.2015</projects>
+        <projects>Zugkraft Stucki - Modelleisenb.- Support</projects>
+        <projects>Züllig AG - Einführung Abacus 1. Phase</projects>
+        <projects>Züllig AG - Einführung Abacus 2. Phase</projects>
+        <projects>Züllig AG / Support</projects>
+        <projects>Züllig AG, Datenübernahme</projects>
+        <projects>Züllig AG, Integration in Hach Lange</projects>
+        <projects>Züllig AG, Workshop</projects>
+        <projects>Züllig AG, Zusatzeinführung</projects>
+        <projects>Zweifel Büro &amp; Co AG / Support</projects>
+        <projects>Zweifel Büro &amp; Co AG, Update auf V2006</projects>
+        <projects>Zweifel Holzbau - Support</projects>
+    </projects>
 </CronosData>
