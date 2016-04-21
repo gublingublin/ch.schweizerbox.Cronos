@@ -3,9 +3,7 @@ package view;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.JOptionPane;
 import javax.xml.bind.JAXBException;
 import javafx.collections.FXCollections;
@@ -16,6 +14,7 @@ import javafx.scene.layout.AnchorPane;
 import model.Data;
 import model.DataImport;
 import model.JAXB;
+import model.Project;
 
 
 public class DesignController {
@@ -44,7 +43,21 @@ public class DesignController {
 	
 	
 	// ----------------------------------------------Funktionen-----------------------------------------------
-
+	public void starProcess(){
+		Project.startStopTime(TBTN_Start1, TF_Beginn1);
+		
+		System.out.println(TBTN_Start1.getText());
+		String start = "Start";
+		String test = "Start" ;//TBTN_Start1.getText();
+		if(test == start){
+			System.out.println("JA");
+		} else {
+			System.out.println("nein");
+		}
+	}
+	
+	
+	
 	public void test() throws FileNotFoundException, IOException, JAXBException {
 		System.out.println("test gedrückt!");
 		Data cronosData = new Data();
@@ -61,6 +74,7 @@ public class DesignController {
 		System.out.println("Test 2 gedrückt");
 	
 	}
+	
 	
 	public void initialize() throws JAXBException{
 		// Importiert die zuletzt gespeicherten Pfade und Projekte aus einem XML
@@ -107,13 +121,20 @@ public class DesignController {
 		
 	}
 	
+	
 	public void getFileChoosertoExport(){
 		CronosFileChooser saveCSV = new CronosFileChooser(TF_ExporttoCSV, 3);
 	}
 	
+	
 	public void getFileChooserImportProjects(){
 		CronosFileChooser saveCSV = new CronosFileChooser(TF_ImportProjekte, 1);
 	}
+
+	
+	
+	
+	
 	//----------------------------------------------Getter- / Setter------------------------------------------
 	
 	

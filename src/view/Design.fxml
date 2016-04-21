@@ -105,7 +105,7 @@
                                           </ScrollPane>
                                           <VBox prefHeight="93.0" prefWidth="121.0">
                                              <children>
-                                                <ToggleButton fx:id="TBTN_Start1" maxHeight="41.0" maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Start">
+                                                <ToggleButton fx:id="TBTN_Start1" maxHeight="41.0" maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" onAction="#starProcess" prefHeight="45.0" prefWidth="120.0" text="Start">
                                                    <VBox.margin>
                                                       <Insets bottom="10.0" />
                                                    </VBox.margin>
