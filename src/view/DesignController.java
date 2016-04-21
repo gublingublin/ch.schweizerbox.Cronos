@@ -3,6 +3,7 @@ package view;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
 import javax.xml.bind.JAXBException;
@@ -36,6 +37,7 @@ public class DesignController {
 	@FXML Tab TAB_Projekt;
 	@FXML AnchorPane AP_Projekt;
 	
+	Project projects = new Project();
 		
 	// ----------------------------------------------Konstruktor----------------------------------------------
 
@@ -44,16 +46,8 @@ public class DesignController {
 	
 	// ----------------------------------------------Funktionen-----------------------------------------------
 	public void starProcess(){
-		Project.startStopTime(TBTN_Start1, TF_Beginn1);
+		projects.startStopTime(TBTN_Start1, TF_Beginn1, TF_Ende1);
 		
-		System.out.println(TBTN_Start1.getText());
-		String start = "Start";
-		String test = "Start" ;//TBTN_Start1.getText();
-		if(test == start){
-			System.out.println("JA");
-		} else {
-			System.out.println("nein");
-		}
 	}
 	
 	
