@@ -3,6 +3,7 @@ package model;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalUnit;
 
@@ -19,8 +20,7 @@ public class Project {
 	private String projectname;
 	private LocalTime beginn;
 	private LocalTime ende;
-	private Duration dauer;
-	private Duration totalDauer;
+	private long totalDauer;
 	
 	
 	
@@ -52,21 +52,47 @@ public void startStopTime(ToggleButton startButton, TextField beginn, TextField 
 		ende.setText(zeit);
 		this.ende = stoppzeit;
 		
-		berechneDauer();
+		System.out.println(berechneDauerinUhrzeit());
 	}
 		
 }
 	
-public void berechneDauer(){
+public String berechneDauerinUhrzeit(){
 	Duration dauer = Duration.between(beginn, ende);
-	dauer = dauer.plusHours(47);
+	totalDauer = totalDauer + dauer.toMillis();
 	long stunden = dauer.toHours();
-	long minuten = dauer.toMinutes();
-	long sec = dauer.toMillis()/1000;
-	System.out.printf("%d : %d : %d" ,stunden, minuten, sec);
+	long minuten = 0;
+	long sec = 0;
 	
+	//Berechnung der Dauer in Stunden, Minuten, Sekunden
+	if(stunden > 0){
+		minuten = dauer.toMinutes() % (dauer.toHours()*60);
+	} else {
+		minuten = dauer.toMinutes();
+	}
 	
+	if(minuten > 0){
+		sec = dauer.toMillis()/1000 % (dauer.toMinutes()*60);
+	} else {
+		sec = dauer.toMillis()/1000;
+	}
+//	System.out.printf("Die Dauer beträgt  %d Stunden %d Minuten %d Sekunden \n" ,stunden, minuten, sec);
 	
+	//Fomatierung für den Output
+	Formats.formatierezuUhrzeit(stunden);
+	Formats.formatierezuUhrzeit(minuten);
+	Formats.formatierezuUhrzeit(sec);
+	Formats.formatierezuUhrzeit(2926384);
+	
+	String out;
+	if(minuten == 0){
+		out = stunden+":"+minuten+":"+sec;
+		
+	} else {
+		out = stunden+":"+minuten;
+	}
+
+	return out;
 	
 }
 	

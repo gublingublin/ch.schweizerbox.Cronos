@@ -1,5 +1,7 @@
 package model;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -23,7 +25,13 @@ public class Formats {
 		return out;
 	}
 	
-	
+	public static long formatierezuUhrzeit(long zeit){
+		NumberFormat uhrzeit = new DecimalFormat("#,##0.##");
+		
+		uhrzeit.format(zeit);
+		System.out.println(zeit);
+		return zeit;
+	}
 	
 	//----------------------------------------------Getter- / Setter------------------------------------------
 
