@@ -31,11 +31,12 @@ public class DesignController {
 	@FXML TextArea TA_Text1;
 	@FXML ToggleButton TBTN_Start1;
 	@FXML SplitMenuButton SMBTN_Ende1;
-	@FXML RadioButton RBTN_tsl1;
-	@FXML RadioButton RBTN_ot1;
+	@FXML RadioButton RBTN_psl1;
+	@FXML RadioButton RBTN_tu1;
 	@FXML Tab TAB_Einstellungen;
 	@FXML Tab TAB_Projekt;
 	@FXML AnchorPane AP_Projekt;
+	@FXML TextArea TA_Warnmeldung;
 	
 	Project projects = new Project();
 		
@@ -46,21 +47,18 @@ public class DesignController {
 	
 	// ----------------------------------------------Funktionen-----------------------------------------------
 	public void starProcess(){
-		projects.startStopTime(TBTN_Start1, TF_Beginn1, TF_Ende1);
-		
+		projects.startStopTime(TBTN_Start1, TF_Beginn1, TF_Ende1, TF_Dauer1);
+	}
+
+	public void uebertrageDaten(){
+		projects.uebertrageZeit(TBTN_Start1, TF_Beginn1, TF_Ende1, TF_Dauer1, TA_Warnmeldung, CBB_Project1);
 	}
 	
 	
 	
 	public void test() throws FileNotFoundException, IOException, JAXBException {
-		System.out.println("test gedrückt!");
-		Data cronosData = new Data();
-		cronosData.setPathExportToCSV(TF_ExporttoCSV.getText());
-		cronosData.setPathImportProjekte(TF_ImportProjekte.getText());
-		JAXB cronosDataToXML = new JAXB();
-		cronosDataToXML.erstelleXML(cronosData);
+
 		
-		JAXB jaxb = new JAXB();
 	}
 	
 	

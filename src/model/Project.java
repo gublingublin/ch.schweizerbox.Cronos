@@ -7,6 +7,8 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalUnit;
 
+import javax.swing.JOptionPane;
+
 import com.sun.xml.internal.ws.policy.privateutil.LocalizationMessages;
 
 import javafx.scene.control.*;
@@ -32,7 +34,7 @@ public class Project {
 	
 	
 	// ----------------------------------------------Funktionen-----------------------------------------------
-public void startStopTime(ToggleButton startButton, TextField beginn, TextField ende){
+public void startStopTime(ToggleButton startButton, TextField beginn, TextField ende, TextField dauer){
 	String text = startButton.getText();
 	
 	//Wenn der Button auf 'Start' steht, starte den Timer:
@@ -43,20 +45,56 @@ public void startStopTime(ToggleButton startButton, TextField beginn, TextField 
 		String zeit = Formats.formatiereZuUhrzeit(startzeit);
 		beginn.setText(zeit);
 		this.beginn = startzeit;
-		
+	
+	//Wenn der Button auf 'Stopp' steht, berechne die Zeit:	
 	} else if(text.compareTo("Stopp") == 0){
-		startButton.setText("Start");
+		startButton.setText("Weiter");
 		
 		LocalTime stoppzeit = LocalTime.now();
 		String zeit = Formats.formatiereZuUhrzeit(stoppzeit);
 		ende.setText(zeit);
 		this.ende = stoppzeit;
 		
-		System.out.println(berechneDauerinUhrzeit());
+		String zeitDauer = berechneDauerinUhrzeit();
+		dauer.setText(zeitDauer);
+	
+	//Wenn der Button auf 'Weiter' steht, leere die Zeitfelder und starte neu:
+	} else if(text.compareTo("Weiter") == 0){
+		ende.setText("");
+		dauer.setText("");
+		
+		LocalTime startzeit = LocalTime.now();
+		String zeit = Formats.formatiereZuUhrzeit(startzeit);
+		beginn.setText(zeit);
+		this.beginn = startzeit;
+		startButton.setText("Stopp");
 	}
 		
 }
+
+public void uebertrageZeit(ToggleButton startButton, TextField beginn, TextField ende, TextField dauer, TextArea warnmeldung,
+		ComboBox<String> project){
+	warnmeldung.setText("");
 	
+	// Überprüfung ob alle benötigten Felder ausgefüllt wurden:
+	if(startButton.getText().compareTo("Start") == 0 | project.getValue() == null){
+		warnmeldung.setText("Projekt fehlt oder Zeit noch nicht gestartet!");
+	} else if (startButton.getText().compareTo("Stopp") == 0){
+		//falls die Zeit noch nicht gestoppt wurde, wird das erst gemacht.
+		startStopTime(startButton, beginn, ende, dauer);
+	} else {
+	// senden der Daten an die Übersicht-Tabelle
+
+	// leeren der Datenfelder
+	beginn.setText("");
+	ende.setText("");
+	dauer.setText("");
+	startButton.setText("Start");
+	}
+	
+}
+
+
 public String berechneDauerinUhrzeit(){
 	Duration dauer = Duration.between(beginn, ende);
 	totalDauer = totalDauer + dauer.toMillis();
@@ -79,17 +117,16 @@ public String berechneDauerinUhrzeit(){
 //	System.out.printf("Die Dauer beträgt  %d Stunden %d Minuten %d Sekunden \n" ,stunden, minuten, sec);
 	
 	//Fomatierung für den Output
-	Formats.formatierezuUhrzeit(stunden);
-	Formats.formatierezuUhrzeit(minuten);
-	Formats.formatierezuUhrzeit(sec);
-	Formats.formatierezuUhrzeit(2926384);
+	String stundenString = Formats.formatierezuUhrzeit(stunden);
+	String minutenString = Formats.formatierezuUhrzeit(minuten);
+	String secString = Formats.formatierezuUhrzeit(sec);
 	
 	String out;
 	if(minuten == 0){
-		out = stunden+":"+minuten+":"+sec;
+		out = stundenString +":"+ minutenString +":"+ secString;
 		
 	} else {
-		out = stunden+":"+minuten;
+		out = stundenString +":"+ minutenString;
 	}
 
 	return out;

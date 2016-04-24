@@ -25,12 +25,10 @@ public class Formats {
 		return out;
 	}
 	
-	public static long formatierezuUhrzeit(long zeit){
-		NumberFormat uhrzeit = new DecimalFormat("#,##0.##");
-		
-		uhrzeit.format(zeit);
-		System.out.println(zeit);
-		return zeit;
+	public static String formatierezuUhrzeit(long zeit){
+		DecimalFormat uhrzeitFormat = new DecimalFormat("#,#00.##");
+		String out = uhrzeitFormat.format(zeit);
+		return out;
 	}
 	
 	//----------------------------------------------Getter- / Setter------------------------------------------

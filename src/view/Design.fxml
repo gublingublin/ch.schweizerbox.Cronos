@@ -31,7 +31,7 @@
                      <children>
                         <Pane layoutX="117.0" layoutY="82.0" prefHeight="563.0" prefWidth="739.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <VBox layoutX="43.0" layoutY="14.0" prefHeight="147.0" prefWidth="659.0">
+                              <VBox layoutX="43.0" layoutY="14.0" prefHeight="154.0" prefWidth="682.0">
                                  <children>
                                     <HBox prefHeight="19.0" prefWidth="540.0">
                                        <children>
@@ -86,14 +86,14 @@
                                                 <Insets right="10.0" />
                                              </HBox.margin>
                                           </TextField>
-                                          <TextField fx:id="TF_Dauer1" maxWidth="55.0" minWidth="55.0" prefWidth="55.0">
+                                          <TextField fx:id="TF_Dauer1" maxWidth="67.0" minWidth="55.0" prefHeight="25.0" prefWidth="67.0">
                                              <HBox.margin>
                                                 <Insets right="10.0" />
                                              </HBox.margin>
                                           </TextField>
                                        </children>
                                     </HBox>
-                                    <HBox prefHeight="100.0" prefWidth="200.0">
+                                    <HBox prefHeight="100.0" prefWidth="730.0">
                                        <children>
                                           <ScrollPane prefHeight="100.0" prefWidth="364.0">
                                              <content>
@@ -110,7 +110,7 @@
                                                       <Insets bottom="10.0" />
                                                    </VBox.margin>
                                                 </ToggleButton>
-                                                <SplitMenuButton fx:id="SMBTN_Ende1" maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Übertragen">
+                                                <SplitMenuButton fx:id="SMBTN_Ende1" maxWidth="120.0" minHeight="45.0" minWidth="120.0" mnemonicParsing="false" onAction="#uebertrageDaten" prefHeight="45.0" prefWidth="120.0" text="Übertragen">
                                                   <items>
                                                     <MenuItem mnemonicParsing="false" text="Übertragen" />
                                                     <MenuItem mnemonicParsing="false" text="Löschen" />
@@ -121,9 +121,9 @@
                                                 <Insets right="10.0" />
                                              </HBox.margin>
                                           </VBox>
-                                          <VBox prefHeight="100.0" prefWidth="153.0">
+                                          <VBox prefHeight="46.0" prefWidth="178.0">
                                              <children>
-                                                <RadioButton fx:id="RBTN_tsl1" mnemonicParsing="false" text="Text stehen lassen">
+                                                <RadioButton fx:id="RBTN_psl1" mnemonicParsing="false" text="Projekt stehen lassen">
                                                    <opaqueInsets>
                                                       <Insets />
                                                    </opaqueInsets>
@@ -131,7 +131,12 @@
                                                       <Insets bottom="10.0" />
                                                    </VBox.margin>
                                                 </RadioButton>
-                                                <RadioButton fx:id="RBTN_ot1" mnemonicParsing="false" text="ohne Text übertragen" />
+                                                <RadioButton fx:id="RBTN_tu1" mnemonicParsing="false" text="Text nur einmal übertragen" />
+                                                <TextArea fx:id="TA_Warnmeldung" opacity="0.76" prefHeight="70.0" prefWidth="178.0">
+                                                   <VBox.margin>
+                                                      <Insets top="11.0" />
+                                                   </VBox.margin>
+                                                </TextArea>
                                              </children>
                                           </VBox>
                                        </children>
